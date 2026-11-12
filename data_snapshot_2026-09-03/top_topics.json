@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "count": 7137,
+  "db_response_time_ms": 41,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 140,
+  "x_query": {
+   "oql": "works where year >= (2010)\n  and year <= (2026)\n  and institution country is (kg or kz or tj or tm or uz)\n  and subfield is (\n    subfields/1702\n    or subfields/1703\n    or subfields/1707\n    or subfields/1712\n  )\ngroup by topic",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "publication_year",
+      "value": 2010,
+      "operator": ">="
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2026,
+      "operator": "<="
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kg"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kz"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tj"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tm"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "uz"
+       }
+      ]
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1702"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1703"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1707"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1712"
+       }
+      ]
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "primary_topic.id"
+     }
+    ]
+   },
+   "url": "/works?filter=publication_year:2010-2026,authorships.institutions.country_code:kg|kz|tj|tm|uz,primary_topic.subfield.id:subfields%2F1702|subfields%2F1703|subfields%2F1707|subfields%2F1712&group_by=primary_topic.id&per_page=200"
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/T10181",
+   "key_display_name": "Natural Language Processing Techniques",
+   "count": 417
+  },
+  {
+   "key": "https://openalex.org/T12157",
+   "key_display_name": "Geochemistry and Geologic Mapping",
+   "count": 285
+  },
+  {
+   "key": "https://openalex.org/T12100",
+   "key_display_name": "Advanced Mathematical Modeling in Engineering",
+   "count": 238
+  },
+  {
+   "key": "https://openalex.org/T12128",
+   "key_display_name": "AI in Service Interactions",
+   "count": 209
+  },
+  {
+   "key": "https://openalex.org/T14335",
+   "key_display_name": "Educational Robotics and Engineering",
+   "count": 191
+  },
+  {
+   "key": "https://openalex.org/T10028",
+   "key_display_name": "Topic Modeling",
+   "count": 183
+  },
+  {
+   "key": "https://openalex.org/T10201",
+   "key_display_name": "Speech Recognition and Synthesis",
+   "count": 158
+  },
+  {
+   "key": "https://openalex.org/T10320",
+   "key_display_name": "Neural Networks and Applications",
+   "count": 147
+  },
+  {
+   "key": "https://openalex.org/T11902",
+   "key_display_name": "Intelligent Tutoring Systems and Adaptive Learning",
+   "count": 142
+  },
+  {
+   "key": "https://openalex.org/T13018",
+   "key_display_name": "Seismology and Earthquake Studies",
+   "count": 139
+  },
+  {
+   "key": "https://openalex.org/T10211",
+   "key_display_name": "Computational Drug Discovery Methods",
+   "count": 138
+  },
+  {
+   "key": "https://openalex.org/T10862",
+   "key_display_name": "AI in cancer detection",
+   "count": 136
+  },
+  {
+   "key": "https://openalex.org/T12002",
+   "key_display_name": "Computability, Logic, AI Algorithms",
+   "count": 132
+  },
+  {
+   "key": "https://openalex.org/T13851",
+   "key_display_name": "Law, AI, and Intellectual Property",
+   "count": 126
+  },
+  {
+   "key": "https://openalex.org/T10664",
+   "key_display_name": "Sentiment Analysis and Opinion Mining",
+   "count": 120
+  },
+  {
+   "key": "https://openalex.org/T10036",
+   "key_display_name": "Advanced Neural Network Applications",
+   "count": 117
+  },
+  {
+   "key": "https://openalex.org/T10682",
+   "key_display_name": "Quantum Computing Algorithms and Architecture",
+   "count": 112
+  },
+  {
+   "key": "https://openalex.org/T10888",
+   "key_display_name": "Augmented Reality Applications",
+   "count": 112
+  },
+  {
+   "key": "https://openalex.org/T11017",
+   "key_display_name": "Chaos-based Image/Signal Encryption",
+   "count": 108
+  },
+  {
+   "key": "https://openalex.org/T11276",
+   "key_display_name": "Solar Radiation and Photovoltaics",
+   "count": 106
+  },
+  {
+   "key": "https://openalex.org/T13935",
+   "key_display_name": "Mathematical Control Systems and Analysis",
+   "count": 101
+  },
+  {
+   "key": "https://openalex.org/T10792",
+   "key_display_name": "Matrix Theory and Algorithms",
+   "count": 90
+  },
+  {
+   "key": "https://openalex.org/T12262",
+   "key_display_name": "Hate Speech and Cyberbullying Detection",
+   "count": 85
+  },
+  {
+   "key": "https://openalex.org/T11727",
+   "key_display_name": "Advanced Algebra and Logic",
+   "count": 83
+  },
+  {
+   "key": "https://openalex.org/T10586",
+   "key_display_name": "Robotic Path Planning Algorithms",
+   "count": 79
+  },
+  {
+   "key": "https://openalex.org/T13650",
+   "key_display_name": "Computational Physics and Python Applications",
+   "count": 79
+  },
+  {
+   "key": "https://openalex.org/T11448",
+   "key_display_name": "Face recognition and analysis",
+   "count": 77
+  },
+  {
+   "key": "https://openalex.org/T14351",
+   "key_display_name": "Statistical and Computational Modeling",
+   "count": 75
+  },
+  {
+   "key": "https://openalex.org/T10812",
+   "key_display_name": "Human Pose and Action Recognition",
+   "count": 74
+  },
+  {
+   "key": "https://openalex.org/T12026",
+   "key_display_name": "Explainable Artificial Intelligence (XAI)",
+   "count": 74
+  },
+  {
+   "key": "https://openalex.org/T10020",
+   "key_display_name": "Quantum Information and Cryptography",
+   "count": 71
+  },
+  {
+   "key": "https://openalex.org/T10601",
+   "key_display_name": "Handwritten Text Recognition Techniques",
+   "count": 70
+  },
+  {
+   "key": "https://openalex.org/T10764",
+   "key_display_name": "Privacy-Preserving Technologies in Data",
+   "count": 70
+  },
+  {
+   "key": "https://openalex.org/T10215",
+   "key_display_name": "Semantic Web and Ontologies",
+   "count": 69
+  },
+  {
+   "key": "https://openalex.org/T11512",
+   "key_display_name": "Anomaly Detection Techniques and Applications",
+   "count": 69
+  },
+  {
+   "key": "https://openalex.org/T12260",
+   "key_display_name": "Educational Technology and Pedagogy",
+   "count": 68
+  },
+  {
+   "key": "https://openalex.org/T10951",
+   "key_display_name": "Cryptographic Implementations and Security",
+   "count": 67
+  },
+  {
+   "key": "https://openalex.org/T11652",
+   "key_display_name": "Imbalanced Data Classification Techniques",
+   "count": 65
+  },
+  {
+   "key": "https://openalex.org/T13083",
+   "key_display_name": "Advanced Text Analysis Techniques",
+   "count": 63
+  },
+  {
+   "key": "https://openalex.org/T14339",
+   "key_display_name": "Image Processing and 3D Reconstruction",
+   "count": 63
+  },
+  {
+   "key": "https://openalex.org/T14064",
+   "key_display_name": "Organizational and Employee Performance",
+   "count": 61
+  },
+  {
+   "key": "https://openalex.org/T10688",
+   "key_display_name": "Image and Signal Denoising Methods",
+   "count": 60
+  },
+  {
+   "key": "https://openalex.org/T13734",
+   "key_display_name": "Advanced Computational Techniques and Applications",
+   "count": 57
+  },
+  {
+   "key": "https://openalex.org/T10100",
+   "key_display_name": "Metaheuristic Optimization Algorithms Research",
+   "count": 55
+  },
+  {
+   "key": "https://openalex.org/T10057",
+   "key_display_name": "Face and Expression Recognition",
+   "count": 54
+  },
+  {
+   "key": "https://openalex.org/T11689",
+   "key_display_name": "Adversarial Robustness in Machine Learning",
+   "count": 53
+  },
+  {
+   "key": "https://openalex.org/T13702",
+   "key_display_name": "Machine Learning in Healthcare",
+   "count": 49
+  },
+  {
+   "key": "https://openalex.org/T10820",
+   "key_display_name": "Fuzzy Logic and Control Systems",
+   "count": 47
+  },
+  {
+   "key": "https://openalex.org/T10237",
+   "key_display_name": "Cryptography and Data Security",
+   "count": 46
+  },
+  {
+   "key": "https://openalex.org/T10444",
+   "key_display_name": "Context-Aware Activity Recognition Systems",
+   "count": 46
+  },
+  {
+   "key": "https://openalex.org/T10331",
+   "key_display_name": "Video Surveillance and Tracking Methods",
+   "count": 44
+  },
+  {
+   "key": "https://openalex.org/T11130",
+   "key_display_name": "Coding theory and cryptography",
+   "count": 44
+  },
+  {
+   "key": "https://openalex.org/T10052",
+   "key_display_name": "Medical Image Segmentation Techniques",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/T14175",
+   "key_display_name": "Intuitionistic Fuzzy Systems Applications",
+   "count": 42
+  },
+  {
+   "key": "https://openalex.org/T11550",
+   "key_display_name": "Text and Document Classification Technologies",
+   "count": 41
+  },
+  {
+   "key": "https://openalex.org/T14413",
+   "key_display_name": "Advanced Technologies in Various Fields",
+   "count": 41
+  },
+  {
+   "key": "https://openalex.org/T12380",
+   "key_display_name": "Authorship Attribution and Profiling",
+   "count": 40
+  },
+  {
+   "key": "https://openalex.org/T11435",
+   "key_display_name": "Polynomial and algebraic computation",
+   "count": 39
+  },
+  {
+   "key": "https://openalex.org/T10388",
+   "key_display_name": "Advanced Steganography and Watermarking Techniques",
+   "count": 38
+  },
+  {
+   "key": "https://openalex.org/T10627",
+   "key_display_name": "Advanced Image and Video Retrieval Techniques",
+   "count": 38
+  },
+  {
+   "key": "https://openalex.org/T11714",
+   "key_display_name": "Multimodal Machine Learning Applications",
+   "count": 37
+  },
+  {
+   "key": "https://openalex.org/T12469",
+   "key_display_name": "Chaos, Complexity, and Education",
+   "count": 37
+  },
+  {
+   "key": "https://openalex.org/T12535",
+   "key_display_name": "Machine Learning and Data Classification",
+   "count": 37
+  },
+  {
+   "key": "https://openalex.org/T12805",
+   "key_display_name": "Cognitive Science and Mapping",
+   "count": 37
+  },
+  {
+   "key": "https://openalex.org/T13904",
+   "key_display_name": "Artificial Intelligence Applications",
+   "count": 36
+  },
+  {
+   "key": "https://openalex.org/T11598",
+   "key_display_name": "Internet Traffic Analysis and Secure E-voting",
+   "count": 35
+  },
+  {
+   "key": "https://openalex.org/T12031",
+   "key_display_name": "Speech and dialogue systems",
+   "count": 34
+  },
+  {
+   "key": "https://openalex.org/T11273",
+   "key_display_name": "Advanced Graph Neural Networks",
+   "count": 33
+  },
+  {
+   "key": "https://openalex.org/T10901",
+   "key_display_name": "Advanced Data Compression Techniques",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/T12761",
+   "key_display_name": "Data Stream Mining Techniques",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/T10637",
+   "key_display_name": "Advanced Clustering Algorithms Research",
+   "count": 29
+  },
+  {
+   "key": "https://openalex.org/T12162",
+   "key_display_name": "Cellular Automata and Applications",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/T12357",
+   "key_display_name": "Digital Media Forensic Detection",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/T12536",
+   "key_display_name": "Topological and Geometric Data Analysis",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/T13629",
+   "key_display_name": "Text Readability and Simplification",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/T11697",
+   "key_display_name": "Numerical Methods and Algorithms",
+   "count": 27
+  },
+  {
+   "key": "https://openalex.org/T10462",
+   "key_display_name": "Reinforcement Learning in Robotics",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/T12874",
+   "key_display_name": "Digital Imaging for Blood Diseases",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/T10824",
+   "key_display_name": "Image Retrieval and Classification Techniques",
+   "count": 24
+  },
+  {
+   "key": "https://openalex.org/T10545",
+   "key_display_name": "Optimization and Variational Analysis",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/T11574",
+   "key_display_name": "Artificial Intelligence in Games",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/T12809",
+   "key_display_name": "Contact Mechanics and Variational Inequalities",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/T13523",
+   "key_display_name": "Mathematics, Computing, and Information Processing",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/T10456",
+   "key_display_name": "Multi-Agent Systems and Negotiation",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/T11349",
+   "key_display_name": "Music Technology and Sound Studies",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/T11901",
+   "key_display_name": "Bayesian Methods and Mixture Models",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/T12423",
+   "key_display_name": "Software Reliability and Analysis Research",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/T12549",
+   "key_display_name": "Image and Object Detection Techniques",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/T12611",
+   "key_display_name": "Neural Networks and Reservoir Computing",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/T11063",
+   "key_display_name": "Rough Sets and Fuzzy Logic",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/T11105",
+   "key_display_name": "Advanced Image Processing Techniques",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/T11269",
+   "key_display_name": "Algorithms and Data Compression",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/T11439",
+   "key_display_name": "Video Analysis and Summarization",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/T13623",
+   "key_display_name": "Linguistic Studies and Language Acquisition",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/T10531",
+   "key_display_name": "Advanced Vision and Imaging",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/T11019",
+   "key_display_name": "Image Enhancement Techniques",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/T11567",
+   "key_display_name": "semigroups and automata theory",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/T11010",
+   "key_display_name": "Logic, Reasoning, and Knowledge",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/T11303",
+   "key_display_name": "Bayesian Modeling and Causal Inference",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/T13559",
+   "key_display_name": "Edcuational Technology Systems",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/T13182",
+   "key_display_name": "Quantum-Dot Cellular Automata",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/T10374",
+   "key_display_name": "Advanced Graph Theory Research",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/T10775",
+   "key_display_name": "Generative Adversarial Networks and Image Synthesis",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/T11450",
+   "key_display_name": "Model-Driven Software Engineering Techniques",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/T10142",
+   "key_display_name": "Formal Methods in Verification",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/T10848",
+   "key_display_name": "Advanced Multi-Objective Optimization Algorithms",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/T11307",
+   "key_display_name": "Domain Adaptation and Few-Shot Learning",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/T11975",
+   "key_display_name": "Evolutionary Algorithms and Applications",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/T12292",
+   "key_display_name": "Graph Theory and Algorithms",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/T12814",
+   "key_display_name": "Gaussian Processes and Bayesian Inference",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/T13062",
+   "key_display_name": "Cognitive Computing and Networks",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/T10126",
+   "key_display_name": "Logic, programming, and type systems",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/T10638",
+   "key_display_name": "Optical measurement and interference techniques",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/T11165",
+   "key_display_name": "Image and Video Quality Assessment",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/T11424",
+   "key_display_name": "Security and Verification in Computing",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/T12072",
+   "key_display_name": "Machine Learning and Algorithms",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/T11612",
+   "key_display_name": "Stochastic Gradient Optimization Techniques",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/T10639",
+   "key_display_name": "Advanced Software Engineering Methodologies",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/T10906",
+   "key_display_name": "AI-based Problem Solving and Planning",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/T12676",
+   "key_display_name": "Machine Learning and ELM",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/T10743",
+   "key_display_name": "Software Testing and Debugging Techniques",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/T10799",
+   "key_display_name": "Data Visualization and Analytics",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/T12131",
+   "key_display_name": "Wireless Signal Modulation Classification",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/T13681",
+   "key_display_name": "Engineering and Information Technology",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/T10711",
+   "key_display_name": "Target Tracking and Data Fusion in Sensor Networks",
+   "count": 8
+  },
+  {
+   "key": "https://openalex.org/T12923",
+   "key_display_name": "Digital Image Processing Techniques",
+   "count": 8
+  },
+  {
+   "key": "https://openalex.org/T13674",
+   "key_display_name": "Computer Science and Engineering",
+   "count": 8
+  },
+  {
+   "key": "https://openalex.org/T14319",
+   "key_display_name": "Currency Recognition and Detection",
+   "count": 8
+  },
+  {
+   "key": "https://openalex.org/T13398",
+   "key_display_name": "Data Analysis with R",
+   "count": 7
+  },
+  {
+   "key": "https://openalex.org/T10720",
+   "key_display_name": "Complexity and Algorithms in Graphs",
+   "count": 6
+  },
+  {
+   "key": "https://openalex.org/T12794",
+   "key_display_name": "Adaptive Dynamic Programming Control",
+   "count": 6
+  },
+  {
+   "key": "https://openalex.org/T13197",
+   "key_display_name": "Spreadsheets and End-User Computing",
+   "count": 6
+  },
+  {
+   "key": "https://openalex.org/T11125",
+   "key_display_name": "Petri Nets in System Modeling",
+   "count": 4
+  },
+  {
+   "key": "https://openalex.org/T11605",
+   "key_display_name": "Visual Attention and Saliency Detection",
+   "count": 4
+  },
+  {
+   "key": "https://openalex.org/T13514",
+   "key_display_name": "Experience-Based Knowledge Management",
+   "count": 4
+  },
+  {
+   "key": "https://openalex.org/T12541",
+   "key_display_name": "Graph Labeling and Dimension Problems",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/T13286",
+   "key_display_name": "Modeling and Simulation Systems",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/T13567",
+   "key_display_name": "AI and Multimedia in Education",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/T13898",
+   "key_display_name": "Diverse Interdisciplinary Research Studies",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/T14381",
+   "key_display_name": "Psychiatry, Mental Health, Neuroscience",
+   "count": 3
+  }
+ ]
+}

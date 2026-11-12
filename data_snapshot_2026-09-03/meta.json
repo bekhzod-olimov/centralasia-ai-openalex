@@ -1,0 +1,5 @@
+{
+ "snapshot_date": "2026-09-03",
+ "corpus_filter": "authorships.institutions.country_code:uz|kz|kg|tj|tm,primary_topic.subfield.id:subfields/1702|subfields/1707|subfields/1703|subfields/1712,publication_year:2010-2026",
+ "corpus_count": 7137
+}

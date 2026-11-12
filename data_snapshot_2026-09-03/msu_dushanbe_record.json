@@ -1,0 +1,1040 @@
+{
+ "id": "https://openalex.org/I4210150146",
+ "ror": "https://ror.org/050a13t43",
+ "display_name": "Moscow State University",
+ "country_code": "TJ",
+ "type": "education",
+ "type_id": "https://openalex.org/institution-types/education",
+ "lineage": [
+  "https://openalex.org/I4210150146"
+ ],
+ "homepage_url": "https://www.msu.tj/",
+ "image_url": null,
+ "image_thumbnail_url": null,
+ "display_name_acronyms": [],
+ "display_name_alternatives": [
+  "Moscow State University",
+  "Филиал Московского государственного университета имени М.В. Ломоносова в городе Душанбе"
+ ],
+ "repositories": [],
+ "works_count": 1300,
+ "cited_by_count": 5072,
+ "summary_stats": {
+  "2yr_mean_citedness": 0.2595190380761523,
+  "h_index": 34,
+  "i10_index": 85
+ },
+ "ids": {
+  "openalex": "https://openalex.org/I4210150146",
+  "ror": "https://ror.org/050a13t43",
+  "grid": "grid.501956.e",
+  "wikipedia": "",
+  "wikidata": null
+ },
+ "geo": {
+  "city": "Dushanbe",
+  "geonames_city_id": "1221874",
+  "region": null,
+  "country_code": "TJ",
+  "country": "Tajikistan",
+  "latitude": 38.579437255859375,
+  "longitude": 68.78997802734375
+ },
+ "international": {},
+ "associated_institutions": [],
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "works_count": 185,
+   "oa_works_count": 153,
+   "cited_by_count": 10
+  },
+  {
+   "year": 2025,
+   "works_count": 208,
+   "oa_works_count": 203,
+   "cited_by_count": 63
+  },
+  {
+   "year": 2024,
+   "works_count": 219,
+   "oa_works_count": 219,
+   "cited_by_count": 113
+  },
+  {
+   "year": 2023,
+   "works_count": 168,
+   "oa_works_count": 163,
+   "cited_by_count": 65
+  },
+  {
+   "year": 2022,
+   "works_count": 32,
+   "oa_works_count": 31,
+   "cited_by_count": 38
+  },
+  {
+   "year": 2021,
+   "works_count": 22,
+   "oa_works_count": 20,
+   "cited_by_count": 137
+  },
+  {
+   "year": 2020,
+   "works_count": 33,
+   "oa_works_count": 24,
+   "cited_by_count": 248
+  },
+  {
+   "year": 2019,
+   "works_count": 30,
+   "oa_works_count": 25,
+   "cited_by_count": 372
+  },
+  {
+   "year": 2018,
+   "works_count": 37,
+   "oa_works_count": 35,
+   "cited_by_count": 883
+  },
+  {
+   "year": 2017,
+   "works_count": 28,
+   "oa_works_count": 25,
+   "cited_by_count": 91
+  },
+  {
+   "year": 2016,
+   "works_count": 42,
+   "oa_works_count": 39,
+   "cited_by_count": 83
+  },
+  {
+   "year": 2015,
+   "works_count": 10,
+   "oa_works_count": 10,
+   "cited_by_count": 34
+  },
+  {
+   "year": 2014,
+   "works_count": 15,
+   "oa_works_count": 15,
+   "cited_by_count": 136
+  },
+  {
+   "year": 2013,
+   "works_count": 13,
+   "oa_works_count": 13,
+   "cited_by_count": 110
+  },
+  {
+   "year": 2012,
+   "works_count": 9,
+   "oa_works_count": 9,
+   "cited_by_count": 20
+  },
+  {
+   "year": 2011,
+   "works_count": 10,
+   "oa_works_count": 9,
+   "cited_by_count": 78
+  },
+  {
+   "year": 2010,
+   "works_count": 5,
+   "oa_works_count": 5,
+   "cited_by_count": 0
+  }
+ ],
+ "roles": [
+  {
+   "role": "institution",
+   "id": "https://openalex.org/I4210150146",
+   "works_count": 1300
+  }
+ ],
+ "topics": [
+  {
+   "id": "https://openalex.org/T13154",
+   "display_name": "Legal and Regulatory Analysis",
+   "count": 88,
+   "score": 0.16050000488758087,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3313",
+    "display_name": "Transportation"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14423",
+   "display_name": "Military Technology and Strategies",
+   "count": 84,
+   "score": 0.018400000408291817,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2202",
+    "display_name": "Aerospace Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14235",
+   "display_name": "Linguistic, Cultural, and Literary Studies",
+   "count": 82,
+   "score": 0.00860000029206276,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3312",
+    "display_name": "Sociology and Political Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14159",
+   "display_name": "Discourse Analysis and Cultural Communication",
+   "count": 29,
+   "score": 0.996399998664856,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3316",
+    "display_name": "Cultural Studies"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10048",
+   "display_name": "Particle physics theoretical and experimental studies",
+   "count": 28,
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3106",
+    "display_name": "Nuclear and High Energy Physics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10224",
+   "display_name": "Quantum Chromodynamics and Particle Interactions",
+   "count": 26,
+   "score": 0.9998999834060669,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3106",
+    "display_name": "Nuclear and High Energy Physics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13795",
+   "display_name": "Language, Communication, and Linguistic Studies",
+   "count": 20,
+   "score": 0.989799976348877,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3315",
+    "display_name": "Communication"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10527",
+   "display_name": "High-Energy Particle Collisions Research",
+   "count": 18,
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3106",
+    "display_name": "Nuclear and High Energy Physics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13747",
+   "display_name": "Sociopolitical Dynamics in Russia",
+   "count": 17,
+   "score": 0.9983999729156494,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3312",
+    "display_name": "Sociology and Political Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10015",
+   "display_name": "Genomics and Phylogenetic Studies",
+   "count": 16,
+   "score": 0.9908999800682068,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1312",
+    "display_name": "Molecular Biology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/13",
+    "display_name": "Biochemistry, Genetics and Molecular Biology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14282",
+   "display_name": "Security, Politics, and Digital Transformation",
+   "count": 16,
+   "score": 0.991100013256073,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3320",
+    "display_name": "Political Science and International Relations"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14375",
+   "display_name": "Cultural, Linguistic, Economic Studies",
+   "count": 16,
+   "score": 0.9926000237464905,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3300",
+    "display_name": "General Social Sciences"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10451",
+   "display_name": "Mycorrhizal Fungi and Plant Interactions",
+   "count": 15,
+   "score": 0.9883000254631042,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1110",
+    "display_name": "Plant Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/11",
+    "display_name": "Agricultural and Biological Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12993",
+   "display_name": "Psychology of Development and Education",
+   "count": 15,
+   "score": 0.9993000030517578,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3204",
+    "display_name": "Developmental and Educational Psychology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/32",
+    "display_name": "Psychology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13193",
+   "display_name": "Geological Studies and Exploration",
+   "count": 15,
+   "score": 0.9986000061035156,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1907",
+    "display_name": "Geology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/19",
+    "display_name": "Earth and Planetary Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13618",
+   "display_name": "Regional Socio-Economic Development Trends",
+   "count": 15,
+   "score": 0.9940999746322632,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3317",
+    "display_name": "Demography"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10825",
+   "display_name": "Plant Pathogens and Fungal Diseases",
+   "count": 14,
+   "score": 0.9847000241279602,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1307",
+    "display_name": "Cell Biology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/13",
+    "display_name": "Biochemistry, Genetics and Molecular Biology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10978",
+   "display_name": "Prenatal Screening and Diagnostics",
+   "count": 14,
+   "score": 0.477400004863739,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2735",
+    "display_name": "Pediatrics, Perinatology and Child Health"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/27",
+    "display_name": "Medicine"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12768",
+   "display_name": "Linguistics and language evolution",
+   "count": 14,
+   "score": 0.9902999997138977,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1203",
+    "display_name": "Language and Linguistics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/12",
+    "display_name": "Arts and Humanities"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12667",
+   "display_name": "Economic and Technological Developments in Russia",
+   "count": 13,
+   "score": 0.982699990272522,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3303",
+    "display_name": "Development"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13102",
+   "display_name": "Soil and Environmental Studies",
+   "count": 13,
+   "score": 0.993399977684021,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1111",
+    "display_name": "Soil Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/11",
+    "display_name": "Agricultural and Biological Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10093",
+   "display_name": "Nuclear physics research studies",
+   "count": 12,
+   "score": 0.9998999834060669,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3106",
+    "display_name": "Nuclear and High Energy Physics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12408",
+   "display_name": "Educational Innovations and Challenges",
+   "count": 12,
+   "score": 0.9785000085830688,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1710",
+    "display_name": "Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12917",
+   "display_name": "Astronomy and Astrophysical Research",
+   "count": 12,
+   "score": 0.9902999997138977,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3105",
+    "display_name": "Instrumentation"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13370",
+   "display_name": "Diverse Scientific and Economic Studies",
+   "count": 12,
+   "score": 0.06719999760389328,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2002",
+    "display_name": "Economics and Econometrics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "topic_share": [
+  {
+   "id": "https://openalex.org/T13461",
+   "display_name": "Vladimir Nabokov Literary Studies",
+   "value": 0.0008697,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3316",
+    "display_name": "Cultural Studies"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14375",
+   "display_name": "Cultural, Linguistic, Economic Studies",
+   "value": 0.0007183,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3300",
+    "display_name": "General Social Sciences"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13701",
+   "display_name": "Psycholinguistics and Behavioral Studies",
+   "value": 0.0006001,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3304",
+    "display_name": "Education"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14159",
+   "display_name": "Discourse Analysis and Cultural Communication",
+   "value": 0.0004942,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3316",
+    "display_name": "Cultural Studies"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13432",
+   "display_name": "Environmental Sustainability and Technology",
+   "value": 0.0004697,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2308",
+    "display_name": "Management, Monitoring, Policy and Law"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/23",
+    "display_name": "Environmental Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12966",
+   "display_name": "Russian Literature and Bakhtin Studies",
+   "value": 0.0004375,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3304",
+    "display_name": "Education"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13795",
+   "display_name": "Language, Communication, and Linguistic Studies",
+   "value": 0.0004064,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3315",
+    "display_name": "Communication"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13969",
+   "display_name": "Flooding and Environmental Impact",
+   "value": 0.0004021,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3312",
+    "display_name": "Sociology and Political Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13401",
+   "display_name": "Social and Cultural Studies",
+   "value": 0.0003958,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3312",
+    "display_name": "Sociology and Political Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14282",
+   "display_name": "Security, Politics, and Digital Transformation",
+   "value": 0.0003838,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3320",
+    "display_name": "Political Science and International Relations"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13747",
+   "display_name": "Sociopolitical Dynamics in Russia",
+   "value": 0.0003554,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3312",
+    "display_name": "Sociology and Political Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14177",
+   "display_name": "Water Resources and Management",
+   "value": 0.0003493,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2303",
+    "display_name": "Ecology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/23",
+    "display_name": "Environmental Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13968",
+   "display_name": "Contemporary Cultural and Social Studies",
+   "value": 0.0003457,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3207",
+    "display_name": "Social Psychology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/32",
+    "display_name": "Psychology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14265",
+   "display_name": "Social and Behavioral Studies",
+   "value": 0.0003416,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3306",
+    "display_name": "Health"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14443",
+   "display_name": "COVID-19, Geopolitics, Technology, Migration",
+   "value": 0.0003403,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3320",
+    "display_name": "Political Science and International Relations"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14519",
+   "display_name": "Innovations in Education and Learning Technologies",
+   "value": 0.0003386,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1710",
+    "display_name": "Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13020",
+   "display_name": "Heat Transfer and Mathematical Modeling",
+   "value": 0.0003353,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13592",
+   "display_name": "Advanced Scientific Techniques and Applications",
+   "value": 0.0003332,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2308",
+    "display_name": "Management, Monitoring, Policy and Law"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/23",
+    "display_name": "Environmental Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13102",
+   "display_name": "Soil and Environmental Studies",
+   "value": 0.0003258,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1111",
+    "display_name": "Soil Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/11",
+    "display_name": "Agricultural and Biological Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12993",
+   "display_name": "Psychology of Development and Education",
+   "value": 0.000314,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3204",
+    "display_name": "Developmental and Educational Psychology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/32",
+    "display_name": "Psychology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14019",
+   "display_name": "Socioeconomic and Demographic Analysis",
+   "value": 0.000311,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2308",
+    "display_name": "Management, Monitoring, Policy and Law"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/23",
+    "display_name": "Environmental Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14423",
+   "display_name": "Military Technology and Strategies",
+   "value": 0.0002872,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2202",
+    "display_name": "Aerospace Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13154",
+   "display_name": "Legal and Regulatory Analysis",
+   "value": 0.0002806,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3313",
+    "display_name": "Transportation"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13618",
+   "display_name": "Regional Socio-Economic Development Trends",
+   "value": 0.0002775,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3317",
+    "display_name": "Demography"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/33",
+    "display_name": "Social Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14121",
+   "display_name": "Logistics and Transportation Systems",
+   "value": 0.0002697,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1404",
+    "display_name": "Management Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/14",
+    "display_name": "Business, Management and Accounting"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "is_super_system": false,
+ "status": "active",
+ "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210150146",
+ "updated_date": "2026-09-01T05:59:40",
+ "created_date": "2022-02-02T04:48:36"
+}

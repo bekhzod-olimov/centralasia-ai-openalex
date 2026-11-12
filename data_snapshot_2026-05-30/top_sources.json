@@ -1,0 +1,512 @@
+{
+ "meta": {
+  "count": 7248,
+  "db_response_time_ms": 89,
+  "page": 1,
+  "per_page": 100,
+  "groups_count": 100,
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/S4306400562",
+   "key_display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+   "count": 538
+  },
+  {
+   "key": "https://openalex.org/S106296714",
+   "key_display_name": "Lecture notes in computer science",
+   "count": 157
+  },
+  {
+   "key": "https://openalex.org/S2764696622",
+   "key_display_name": "AIP conference proceedings",
+   "count": 149
+  },
+  {
+   "key": "https://openalex.org/S83211391",
+   "key_display_name": "Journal of Mathematical Sciences",
+   "count": 89
+  },
+  {
+   "key": "https://openalex.org/S4210172589",
+   "key_display_name": "SSRN Electronic Journal",
+   "count": 80
+  },
+  {
+   "key": "https://openalex.org/S4210169156",
+   "key_display_name": "Lecture notes in networks and systems",
+   "count": 79
+  },
+  {
+   "key": "https://openalex.org/S2764900261",
+   "key_display_name": "Communications in computer and information science",
+   "count": 74
+  },
+  {
+   "key": "https://openalex.org/S19800340",
+   "key_display_name": "Doklady Mathematics",
+   "count": 71
+  },
+  {
+   "key": "https://openalex.org/S4210186093",
+   "key_display_name": "E3S Web of Conferences",
+   "count": 67
+  },
+  {
+   "key": "https://openalex.org/S4306400194",
+   "key_display_name": "arXiv (Cornell University)",
+   "count": 65
+  },
+  {
+   "key": "https://openalex.org/S84368417",
+   "key_display_name": "Moscow University Mathematics Bulletin",
+   "count": 61
+  },
+  {
+   "key": "https://openalex.org/S16116274",
+   "key_display_name": "Mathematical Notes",
+   "count": 44
+  },
+  {
+   "key": "https://openalex.org/S2485537415",
+   "key_display_name": "IEEE Access",
+   "count": 44
+  },
+  {
+   "key": "https://openalex.org/S120348307",
+   "key_display_name": "Procedia Computer Science",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/S181965166",
+   "key_display_name": "Moscow University Computational Mathematics and Cybernetics",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/S4210205812",
+   "key_display_name": "Applied Sciences",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/S4210170749",
+   "key_display_name": "BULLETIN OF THE KARAGANDA UNIVERSITY-MATHEMATICS",
+   "count": 39
+  },
+  {
+   "key": "https://openalex.org/S4363607884",
+   "key_display_name": "2021 International Conference on Information Science and Communications Technologies (ICISCT)",
+   "count": 36
+  },
+  {
+   "key": "https://openalex.org/S4210187594",
+   "key_display_name": "Journal of Physics Conference Series",
+   "count": 35
+  },
+  {
+   "key": "https://openalex.org/S4210187850",
+   "key_display_name": "Moscow University Bulletin Series 4 Geology",
+   "count": 33
+  },
+  {
+   "key": "https://openalex.org/S106263159",
+   "key_display_name": "Lobachevskii Journal of Mathematics",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/S4210176560",
+   "key_display_name": "Дискретная математика",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/S196734849",
+   "key_display_name": "Scientific Reports",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/S4220651845",
+   "key_display_name": "Herald of Kazakh-British technical university",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/S67922921",
+   "key_display_name": "Algebra and Logic",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/S149956803",
+   "key_display_name": "Computational Mathematics and Mathematical Physics",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/S4210180547",
+   "key_display_name": "Bulletin of the Kyrgyz State University I Arabaev",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/S71958379",
+   "key_display_name": "Differential Equations",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/S4210209227",
+   "key_display_name": "Математические заметки",
+   "count": 29
+  },
+  {
+   "key": "https://openalex.org/S4210186047",
+   "key_display_name": "Trudy Universiteta",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/S4210225114",
+   "key_display_name": "Scientific Journal of Astana IT University",
+   "count": 27
+  },
+  {
+   "key": "https://openalex.org/S4306525896",
+   "key_display_name": "Research Square",
+   "count": 27
+  },
+  {
+   "key": "https://openalex.org/S6309402219",
+   "key_display_name": "Preprints.org",
+   "count": 27
+  },
+  {
+   "key": "https://openalex.org/S4210192031",
+   "key_display_name": "Mathematics",
+   "count": 26
+  },
+  {
+   "key": "https://openalex.org/S2764476468",
+   "key_display_name": "Eastern-European Journal of Enterprise Technologies",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/S4210180746",
+   "key_display_name": "Advances in computational intelligence and robotics book series",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/S4306401280",
+   "key_display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/S4210208774",
+   "key_display_name": "Journal of Mathematics Mechanics and Computer Science",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/S107669889",
+   "key_display_name": "Discrete Mathematics and Applications",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/S183492911",
+   "key_display_name": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/S4306401840",
+   "key_display_name": "DergiPark (Istanbul University)",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/S4306498717",
+   "key_display_name": "2020 International Conference on Information Science and Communications Technologies (ICISCT)",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/S59896594",
+   "key_display_name": "Russian Mathematics",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/S23629721",
+   "key_display_name": "International Journal of Advanced Computer Science and Applications",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S2764905038",
+   "key_display_name": "Advances in intelligent systems and computing",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S2764931430",
+   "key_display_name": "Japan Geoscience Union",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S4210227656",
+   "key_display_name": "NEWS of National Academy of Sciences of the Republic of Kazakhstan",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S4210228075",
+   "key_display_name": "Computers",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S96284662",
+   "key_display_name": "Applied Solar Energy",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/S4210223520",
+   "key_display_name": "Bulletin of Shakarim University Technical Sciences",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/S4210228265",
+   "key_display_name": "The Scientific Issues of Ternopil Volodymyr Hnatiuk National Pedagogical University Series pedagogy",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/S101949793",
+   "key_display_name": "Sensors",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S190787756",
+   "key_display_name": "Symmetry",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S2738402919",
+   "key_display_name": "Computation",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S2764461748",
+   "key_display_name": "Studies in computational intelligence",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S4387287727",
+   "key_display_name": "Вестник Московского университета Серия 1 Математика Механика",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S4406922384",
+   "key_display_name": "Open MIND",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S94840338",
+   "key_display_name": "Siberian Mathematical Journal",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/S4210182288",
+   "key_display_name": "Physical review. A/Physical review, A",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/S4210204670",
+   "key_display_name": "Bulletin of Science and Practice",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/S4306402512",
+   "key_display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/S4210207685",
+   "key_display_name": "Вестник КазАТК",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/S4210240683",
+   "key_display_name": "International Journal of Innovative Research and Scientific Studies",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/S4306498538",
+   "key_display_name": "2019 International Conference on Information Science and Communications Technologies (ICISCT)",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/S190629608",
+   "key_display_name": "Algorithms",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S2481029507",
+   "key_display_name": "Data in Brief",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S2737336974",
+   "key_display_name": "Minerals",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S4210202905",
+   "key_display_name": "Electronics",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S4210232352",
+   "key_display_name": "Чебышевский сборник",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S4387292312",
+   "key_display_name": "International Journal of Law and Policy",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S89329721",
+   "key_display_name": "Moscow University Mechanics Bulletin",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/S4210170642",
+   "key_display_name": "Texts in computer science",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/S4210181882",
+   "key_display_name": "Mühendislik Bilimleri ve Tasarım Dergisi",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/S4393917757",
+   "key_display_name": "Himičeskaâ tehnologiâ. Kontrolʹ i upravlenie/Chemical Technology. Control and Management",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/S2736465063",
+   "key_display_name": "Journal of Imaging",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S2737646863",
+   "key_display_name": "Engineering Technology & Applied Science Research",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S2738317984",
+   "key_display_name": "Open Engineering",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S2764513175",
+   "key_display_name": "Cogent Engineering",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4210196280",
+   "key_display_name": "Atlantis studies in differential equations",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4210219776",
+   "key_display_name": "Information",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4210235676",
+   "key_display_name": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4210238752",
+   "key_display_name": "Big Data and Cognitive Computing",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4306523772",
+   "key_display_name": "Proceedings of the 30th International Conference on Computer Graphics and Machine Vision (GraphiCon 2020). Part 2",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4363608420",
+   "key_display_name": "2022 International Conference on Smart Information Systems and Technologies (SIST)",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4387280628",
+   "key_display_name": "International Journal of Pedagogics",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4387280715",
+   "key_display_name": "American Journal Of Applied Science And Technology",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S4393920085",
+   "key_display_name": "Habaršy. Fizika-matematikalyķ ġylymdary seriâsy",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/S144330684",
+   "key_display_name": "Chinese Journal of Electronics",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4210189194",
+   "key_display_name": "IOP Conference Series Materials Science and Engineering",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4210190364",
+   "key_display_name": "Вестник Академии гражданской авиации",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4210191458",
+   "key_display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4210198511",
+   "key_display_name": "Contemporary Mathematics Fundamental Directions",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4210229836",
+   "key_display_name": "Итоги науки и техники Серия «Современная математика и ее приложения Тематические обзоры»",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4306498820",
+   "key_display_name": "2021 IEEE International Conference on Smart Information Systems and Technologies (SIST)",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S4393918830",
+   "key_display_name": "ChemRxiv",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/S100748152",
+   "key_display_name": "Moscow University Geology Bulletin",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/S150218641",
+   "key_display_name": "Programming and Computer Software",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/S178702154",
+   "key_display_name": "Algebra Universalis",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/S2764697050",
+   "key_display_name": "Theoretical & Applied Science",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/S2764855249",
+   "key_display_name": "Indonesian Journal of Electrical Engineering and Computer Science",
+   "count": 9
+  }
+ ]
+}

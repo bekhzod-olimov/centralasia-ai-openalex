@@ -1,0 +1,301 @@
+sample_no,openalex_id,ai_relevant,confidence,note
+1,W7134816996,1,medium,essay on mathematical foundations of ML/DL
+2,W7223685522,1,medium,no abstract; title: speaker recognition from speech signals
+3,W7140513949,1,high,uncertainty/validation of AI models in Earth science
+4,W7133564002,1,high,deep learning ensemble for ARDS prediction (retracted)
+5,W7223405935,1,medium,no abstract; multi-robot task allocation via QAOA
+6,W2914643023,1,high,"automatic text summarization, NLP"
+7,W4416772619,0,high,"computability theory, Rogers semilattices"
+8,W4385155218,1,medium,"no abstract; explainable AI, quantum optical neural network"
+9,W7225151395,0,high,melon variety database and PHP web app
+10,W2797879124,0,high,certificate generation software system
+11,W7213867716,1,high,YOLOv8 variant for classroom behaviour detection
+12,W3204363142,1,medium,no abstract; parallel corpus construction for MT
+13,W7162111555,1,high,spike-encoding features for speaker recognition
+14,W7128748379,1,high,philosophy/ethics of AI design for social welfare
+15,W4379381375,1,high,recognition and classification of micro-objects in images
+16,W7225244636,1,low,boilerplate abstract; AI as tool for linguistics
+17,W7220446076,0,high,"Floyd shortest-path algorithm, no learning"
+18,W7140160353,1,high,comparison of generative LLMs for letter templates
+19,W4410342156,1,medium,survey of activity recognition in smart homes
+20,W7216656128,0,high,"generic IT in natural sciences, one-line abstract"
+21,W2581525955,0,high,"pure math, IFS denoising of probability measures"
+22,W7215033206,1,high,hybrid ML forecasting of seismic amplitudes
+23,W3203844938,1,medium,Petri-net modelling of ANN training
+24,W7125475978,1,high,no abstract; PSO feature selection for anomaly detection
+25,W3137908242,0,low,no abstract; title generic risk classification
+26,W4406599032,1,high,YOLOv8 and Faster R-CNN for mammography
+27,W4206640589,1,high,question answering with transfer learning
+28,W4313172494,1,medium,"ontology of Kazakh grammar, knowledge representation"
+29,W4410092621,0,high,"pure optimization, extragradient method in Hilbert space"
+30,W4402197878,0,high,"no abstract; formal methods, coalgebras"
+31,W7135231382,1,high,naive Bayes classification of Uzbek texts
+32,W4414828951,0,high,"lightweight cryptosystem, DFA and chaos"
+33,W7222832584,1,high,heatmap decoding for human pose estimation
+34,W7168262952,1,high,ML forest mapping from satellite imagery
+35,W3180561911,1,high,comparison of knowledge bases ConceptNet vs Cyc
+36,W2928796906,0,high,programming languages and business data formats
+37,W7168024643,1,high,"ethics of AI, moral machines"
+38,W4383890147,0,medium,no abstract; title 'Introduction' only
+39,W2581846407,1,high,lexical selection in Russian-Kazakh machine translation
+40,W7166721123,0,high,web-based library information system
+41,W7164806150,1,high,swarm intelligence for adaptive learning
+42,W4401597577,1,high,YOLO-based video surveillance
+43,W2744183811,0,high,Mealy automaton for microprocessor control
+44,W4405321793,1,high,Bi-LSTM hate speech detection
+45,W7116044234,0,high,matrix mappings in cryptography
+46,W4410034391,0,high,data structures survey
+47,W4380562987,1,high,LSTM deep classifier for network attacks
+48,W4408287744,1,high,deep insect detection network from UAV imagery
+49,W7164477349,0,medium,"dataset record; NLP benchmark, no model described"
+50,W2750993101,1,high,no abstract; subword-aware neural language modeling
+51,W4320801795,0,high,"Boolean equation minimization, pure logic"
+52,W7219733036,0,high,block cipher cryptostrength criteria
+53,W4391898327,1,low,no abstract; computational model of Tatar language
+54,W7220555222,1,high,EfficientNetB0 image classification
+55,W4376119519,1,high,ML document classification in Python
+56,W2979435152,0,high,quantum annealing spin physics
+57,W4289100524,0,high,"computational topology, Jacobi sets"
+58,W3008039831,1,high,no abstract; speech emotion recognition with CNN
+59,W7160132647,0,high,algebraic manifold parameterization in Maple
+60,W2972117209,1,medium,no abstract; evolutionary training of intelligent agents
+61,W4401690490,0,high,AR app effect on geometry learning
+62,W4385673823,0,low,"no abstract; manuscript image preprocessing, no learning indicated"
+63,W4296934882,0,high,no abstract; UML book chapter
+64,W7224772758,1,high,"Uzbek orthographic error typology, k-means, spell correction"
+65,W4412607604,0,medium,"forensic linguistics, no computational method described"
+66,W7130705629,1,high,survey of deepfake generation methods
+67,W3048814423,0,high,"no abstract; computability, punctual numberings"
+68,W4406813593,0,high,numberings of universal algebras
+69,W4282958541,1,high,no abstract; DL/NLP offensive language detection
+70,W7161580919,0,high,VR/AR tools in Russian education
+71,W7167919683,0,medium,"endoscopic image noise review, no learning described"
+72,W3198479991,0,high,Cramer's rule for tridiagonal systems
+73,W4416305885,1,high,deep-learning OCR for historical manuscripts
+74,W7124905917,1,high,MobileNetv3 malware detection
+75,W2552779481,0,high,philosophy of mixed reality in education
+76,W7164488777,0,high,"AR vocabulary learning, cognitive load"
+77,W3204295894,1,high,no abstract; multilingual end-to-end ASR
+78,W7223187670,0,medium,"dataset exploratory analysis, no model trained"
+79,W7117783926,1,high,Vision Transformer malware classification
+80,W4405885406,0,high,"punctual numberings, computability"
+81,W2068248897,0,high,topological landscapes visualization
+82,W4411359223,1,high,multimodal AI voice-to-text with sentiment
+83,W7160425639,1,high,analysis of ML/RL/LLM in software testing
+84,W7116416054,1,high,ViT-EfficientNet document classification
+85,W7154567229,1,high,change detection network for embankments
+86,W3099420929,0,medium,"corpus linguistics recommendations, no AI method"
+87,W7172209163,1,high,review of two-stage object detectors
+88,W2238325355,0,medium,"classical deblurring via regularization, no learning"
+89,W4313448767,1,medium,automatic sign language translation requirements
+90,W2950233525,0,medium,"no abstract; tabu search, pure combinatorial optimization"
+91,W7168945822,0,high,IMU wearable motion monitoring hardware
+92,W7200074306,1,high,expressive power of graph neural networks
+93,W7222846959,1,medium,AI adoption in digital economy overview
+94,W7222885704,1,high,clustering and classification algorithms with feature weighting
+95,W2891530906,0,high,S-box construction for block ciphers
+96,W4393982488,1,low,knowledge-space modelling for adaptive learning
+97,W7155005162,1,high,multimodal emotion recognition with attention fusion
+98,W7213900633,1,high,BERT/T5/RoBERTa Kazakh text classification
+99,W7215212457,0,high,"calculus of variations, pure math"
+100,W4389471464,0,high,"property testing of image connectedness, theory"
+101,W4411359930,1,high,SVM and decision trees for historical events
+102,W7223947594,1,high,federated learning resilience to tag-spoofing
+103,W2029416337,0,high,algebra of mode homomorphisms
+104,W2807453808,0,high,interval analysis of linear systems
+105,W4406765378,0,high,mathematical modeling in Python overview
+106,W7140112257,0,high,information system architecture design methods
+107,W7162186027,0,high,PyQt GUI library tutorial
+108,W4388344547,0,high,no abstract; formal methods adoption in industry
+109,W4414322398,1,medium,quantum-entropy multilevel image segmentation
+110,W7163866692,1,high,AI-based OCR for ancient manuscripts
+111,W7222805217,0,high,holographic technologies in pedagogy
+112,W4406299292,0,high,low-code/no-code platforms analysis
+113,W2293176734,0,medium,no abstract; learning with Google Glass
+114,W4393133664,1,high,deep learning handwriting recognition Kazakh-Russian
+115,W4381033171,0,high,astronomy problems coded in Python
+116,W7220219808,0,high,"BFS algorithm complexity, graph search"
+117,W4388813321,1,high,LSTM volleyball action recognition
+118,W4214515896,0,high,"computability, principal numberings"
+119,W7217125249,1,medium,"pros and cons of AI, ethics overview"
+120,W7215626721,0,high,quadratic forms canonical reduction
+121,W7159614385,1,high,skeleton action recognition graph-transformer
+122,W7167847918,1,low,no abstract; title: AI in information society
+123,W7222821585,0,high,MySQL DBMS capabilities
+124,W4405787051,1,high,morphological synthesis for NLP
+125,W7204136256,0,medium,"dataset record; learner corpus, no AI method"
+126,W7223112378,1,medium,"generative AI tools for L2 error detection, pedagogy"
+127,W4403399925,1,high,clustering algorithm based on object similarity
+128,W7161520597,0,high,"nonsmooth optimal control, pure math"
+129,W7166736724,1,high,GAN vs diffusion models comparison
+130,W4400246543,0,high,CALS technology overview
+131,W7218723307,0,high,Windows 7 vs 10 comparison
+132,W4409494814,1,high,ML/DL malware detection in healthcare
+133,W4399202452,0,high,optimization/optimal control textbook
+134,W4280623778,0,high,SQL Server authorization
+135,W4414758693,1,high,Kaz-RoBERTa pretrained language model
+136,W2909497049,1,medium,no abstract; object recognition
+137,W4405194043,0,high,"review of mu-value approximation, matrix analysis"
+138,W3030350028,0,medium,"no abstract; signal denoising, no learning indicated"
+139,W1536695580,0,medium,"light field image rendering, classical processing"
+140,W4396593197,1,high,federated learning for cancer diagnosis
+141,W4378591204,0,high,C++ error handling
+142,W2340845061,1,medium,fuzzy evolutionary multiobjective design of rehab robot
+143,W7222807605,0,medium,"corpus annotation, linguistics"
+144,W4412960752,0,high,hardware divider circuit
+145,W7155198474,1,high,explainable AI architectures survey
+146,W7221666429,1,high,CNN road sign recognition
+147,W4410841606,0,high,AR/VR in healthcare systematic review
+148,W7219970892,1,medium,AI impact on innovation management
+149,W7217673014,0,high,restaurant ordering website
+150,W4415494269,0,high,"P vs NP claim, automata theory"
+151,W4387131593,1,high,no abstract; Kazakh ASR with enhanced language model
+152,W7220018462,0,high,C++ inheritance tutorial
+153,W7223129854,1,high,cascaded NLP model router for text classification
+154,W7172441073,1,high,generative AI and intellectual property law
+155,W7160845600,0,high,no abstract; DNA-optical cryptosystems
+156,W4413225462,1,high,ML/DL offensive content detection Kazakh
+157,W2070781429,0,high,"no abstract; closure systems, lattice theory"
+158,W4408135001,0,high,key generation stream cipher
+159,W7219449951,0,high,VR/AR integration in pedagogy
+160,W7214379684,1,high,transformer-based Kazakh NLP framework
+161,W4417510471,1,high,neural style transfer for AR
+162,W4283204667,0,high,Petri-net based system testing
+163,W4385444201,1,high,meta-learning algorithm selection
+164,W7117465680,1,high,responsible AI in education framework
+165,W1663086848,0,high,"Petri net controlled grammars, formal languages"
+166,W7118183553,1,low,gradient pattern recognition in remote-sensing images
+167,W4414956779,1,high,GPT-based text steganography
+168,W3045127866,0,high,DEM accuracy evaluation
+169,W7168242181,0,high,integer divider hardware architecture
+170,W7160269296,1,high,classification model forecasting AI regulation
+171,W2408702307,0,high,no abstract; Hamiltonian QR algorithm
+172,W4289535696,1,low,no abstract; Kazakh speech corpus construction
+173,W3049663843,1,high,no abstract; U-Net land-use classification
+174,W7222846264,0,high,"matrices and operations, linear algebra"
+175,W4410297925,0,medium,"dataset record; action recognition dataset, no model"
+176,W4385671714,0,high,formal verification of control programs
+177,W2888300206,0,low,"chat interface for Coq proof assistant, software"
+178,W7215232502,1,medium,factor graph message passing for quality evaluation
+179,W4392013264,0,high,Petri net transport corridor modeling
+180,W7118260872,1,high,hybrid XLM-R sentiment analysis Kazakh
+181,W7153346293,0,high,online store development
+182,W7224847970,1,medium,ASR and subtitle system architecture
+183,W4404914847,1,high,edge AI reinforcement learning for treatment
+184,W3185288769,0,high,information system for scientific works accounting
+185,W4404300590,0,high,"NDWI water body mapping, no ML"
+186,W7203598302,1,medium,"deepfake identity fraud review, AI misuse"
+187,W7168185992,1,high,GAN adversarial training for cipher design
+188,W2246715876,0,high,"optimal control, elliptic equation"
+189,W7166735809,1,high,GAN training stabilization
+190,W7168282304,1,medium,deepfake evolution and societal consequences
+191,W7128806667,1,high,quantum tensor network neural architecture
+192,W4407024457,0,high,spectral properties of transportation matrices
+193,W7212273892,1,high,YOLO text detection with augmentation
+194,W7131760013,1,medium,review of ML/DL for web traffic analysis
+195,W7161825343,0,high,office software packages
+196,W7225016470,1,medium,hybrid lexical-vector retrieval for building codes
+197,W2986126070,1,high,ML models for gully detection
+198,W4396523679,1,medium,no abstract; nature-inspired computing in healthcare
+199,W7222831118,0,medium,UML software architecture; AI only nominal
+200,W7222840418,1,high,neural network and clustering object recognition
+201,W7127666683,1,high,deep learning prostate cancer MRI decision support
+202,W4411616327,1,high,ML vegetation mapping from Landsat
+203,W2320354192,0,high,matrix restoration from spectral data
+204,W4391113676,0,high,Cobalt Strike cyberattack review
+205,W4405272780,1,high,sentence alignment Kazakh-Turkish parallel corpus
+206,W7216500279,1,medium,mathematical modelling foundations of AI
+207,W7225236362,1,medium,overview of Uzbek NLP problems and AI solutions
+208,W7112308027,0,high,MC/DC test path generation from CFG
+209,W4309675322,1,high,skeleton-based action recognition deep learning
+210,W4410070025,1,high,image optimization for face recognition
+211,W7225611561,1,high,calibrated explainable risk forecasting ML
+212,W4415004453,1,high,LLM-powered mutation testing
+213,W7212165634,0,high,immersive technologies pedagogy
+214,W3166636547,0,high,equipment and software testing
+215,W4410801247,1,high,feature extraction for object recognition operators
+216,W7172210613,1,medium,Sugeno fuzzy compensator for nonlinear plants
+217,W7220135766,1,high,AI for software testing automation
+218,W7222792295,1,medium,"object detection and tracking methods, short abstract"
+219,W4308096503,1,high,MorphUz morphological analyzer
+220,W7164908014,1,medium,AI forecasting models in macroeconomics
+221,W4400205856,1,high,U-Net/DeepLabV3+ nuclei segmentation
+222,W2766256566,0,high,no abstract; Moore-Penrose inverse convexity
+223,W7140294838,1,high,XAI for clinical biomarker identification
+224,W4412044717,1,high,YOLO with Kafka inference pipeline
+225,W7220274287,0,high,forms of digital information representation
+226,W4312941687,0,high,no abstract; AES modes ciphertext analysis
+227,W7214987450,1,high,YOLOv8 drone human detection
+228,W4414897821,0,high,hash function transformations
+229,W4407177008,0,high,no abstract; Python functions tutorial
+230,W4383824019,1,high,GD_CNN leukemia image segmentation
+231,W7162847161,1,high,BiLSTM and Q-learning automated testing
+232,W4289717350,1,medium,no abstract; expert system for power engineering
+233,W7118312411,1,medium,review of text region detection in document images
+234,W7222793486,0,high,C# delegates and events
+235,W4403310207,1,high,Conformer Kazakh speech recognition
+236,W7164925650,1,high,computer vision pose estimation for fitness review
+237,W7223109928,1,high,conditional GAN CT image synthesis
+238,W7143434153,0,high,web system for spice business
+239,W4390234730,0,high,"design-code semantic gap, software"
+240,W3037397454,0,high,no abstract; P vs NP algorithms claim
+241,W7139086879,0,high,"L-fuzzy congruences, pure algebra"
+242,W4407779334,0,high,no abstract; asymmetric encryption
+243,W2990982362,0,high,numerical hydrodynamics
+244,W7220646590,0,high,atmospheric conditions for aerial photography
+245,W4200220893,0,high,"computability, degrees of representations"
+246,W7224090298,0,high,max-plus algebra
+247,W7147643477,1,high,ontological knowledge base for teacher training
+248,W4385641942,1,medium,binary clustering of incoming data
+249,W7171743650,1,medium,dataset record describing Word2Vec/FastText evaluation
+250,W7169771010,0,high,"AES plus image steganography, no learning"
+251,W4307268363,1,high,ML speech feature extraction for speaker recognition
+252,W4281968304,0,high,S-box design for block cipher
+253,W2921693254,1,medium,unsupervised dimension reduction theory
+254,W7134938096,1,high,Kazakh handwritten text recognition with ECOC ensembles
+255,W7168269139,1,high,computer vision biomechanical exercise assessment
+256,W1426587724,0,high,no abstract; cloud communication behaviour
+257,W2990273903,1,high,fuzzy c-means colour image segmentation
+258,W3027127964,0,high,non-standard analysis of hybrid systems
+259,W7134111075,1,high,CNN signature feature extraction
+260,W7215940855,0,medium,"language corpora overview, no AI method"
+261,W4383223667,0,high,lightweight block cipher
+262,W3158059488,0,high,optimal control existence theorem
+263,W4412553352,1,high,CNN multi-view mammography
+264,W2409084172,1,medium,no abstract; concept maps via text mining
+265,W7203782146,0,high,digital lab equipment passports IS
+266,W7168285336,1,high,deepfake generative models technical review
+267,W4413278375,1,high,DAFNet hyperspectral classification
+268,W7219513518,1,low,adaptive learning knowledge base model
+269,W7220111036,0,high,academic advising information system
+270,W7216554898,1,high,Kazakh NLP sign-language lexical mapping
+271,W7203619513,1,high,GAN image inpainting for forensics
+272,W4387496645,0,high,augmented virtuality in education
+273,W4382886919,1,medium,trends of AI in financial system
+274,W7219264839,1,high,SGD stability for neural network training
+275,W7217575611,0,high,Petri net code transmission model
+276,W7213393013,1,high,deep learning histology of zoonotic diseases
+277,W4387496676,1,high,SLAM-based robot exploration and mapping
+278,W2946758069,0,high,no abstract; admission system architecture
+279,W3217254789,0,medium,"Fourier/wavelet TV image filtering, no learning"
+280,W7220306600,1,high,knowledge representation models survey
+281,W7225154207,0,high,immersive technologies survey in education
+282,W7214630096,0,medium,no abstract; German linguistics constructions
+283,W7223719981,0,medium,"fractal-dimension image descriptor, classical"
+284,W3009495655,1,high,no abstract; unknown words in Kazakh NMT
+285,W7217447087,0,high,software types overview
+286,W4382931362,0,high,"lattice quasi-identities, pure algebra"
+287,W4409428101,1,high,finite automata combined with ML sequence recognition
+288,W7217034690,1,high,"POS tagging of pronouns, rule/statistical/ML models"
+289,W4405087946,1,high,LiDAR SLAM hospital service robot
+290,W3138808869,1,low,no abstract; intelligent robot mechatronic simulation
+291,W4408990107,1,high,ML de-anonymization in social networks
+292,W7167407968,1,high,LLM-based Text-to-SQL system
+293,W4414678611,0,medium,no abstract; LuNA program construction system
+294,W4409616986,1,low,pedagogical model with AI-driven personalization
+295,W4392681384,1,high,semi-supervised deep learning RBC classification
+296,W7133216315,1,high,semantic NMF with multilingual embeddings
+297,W3207390566,1,high,neural network data classification
+298,W7158627325,1,medium,"AI in strategic planning, adoption overview"
+299,W7219562681,0,high,"Zhegalkin algebra, pure logic"
+300,W4400417053,1,medium,quantum pattern recognition for proctoring

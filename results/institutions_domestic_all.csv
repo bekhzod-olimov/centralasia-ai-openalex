@@ -1,0 +1,319 @@
+country,institution_id,institution,works,share_of_national_works,share_of_institution_appearances
+UZ,I21256249,Tashkent University of Information Technology,1001,0.2019,0.1376
+UZ,I47151758,National University of Uzbekistan,449,0.0905,0.0617
+UZ,I14916453,Urgench State University,326,0.0657,0.0448
+UZ,I55383850,Tashkent State University of Economics,313,0.0631,0.043
+UZ,I4405255828,Mamun University,269,0.0542,0.037
+UZ,I4405254457,Termez University of Economics and Service,257,0.0518,0.0353
+UZ,I1299170990,Samarkand State University named after Sharof Rashidov,250,0.0504,0.0344
+UZ,I4405255639,Alisher Navo'i Tashkent State University of Uzbek Language and Literature,241,0.0486,0.0331
+UZ,I4210109462,Tashkent Institute of Irrigation and Agricultural Mechanization Engineers,196,0.0395,0.0269
+UZ,I3131790217,Bukhara State University,187,0.0377,0.0257
+UZ,I4210104713,Ferghana State University,186,0.0375,0.0256
+UZ,I3020809043,Tashkent State Technical University named after Islam Karimov,142,0.0286,0.0195
+UZ,I4405254966,University of Tashkent for Applied Sciences,116,0.0234,0.0159
+UZ,I4405254406,Alfraganus University,112,0.0226,0.0154
+UZ,I4210149746,Kimyo International University in Tashkent,107,0.0216,0.0147
+UZ,I4405253370,Turan International University,101,0.0204,0.0139
+UZ,I4210159709,Termez State University,96,0.0194,0.0132
+UZ,I4405261140,Fergana State Technical University,96,0.0194,0.0132
+UZ,I3133440902,Tashkent State University of Oriental Studies,92,0.0186,0.0126
+UZ,I4210102006,Uzbek State University of World Languages,90,0.0181,0.0124
+UZ,I4392021094,Jizzakh branch of the National University of Uzbekistan named after Mirzo Ulugbek,89,0.0179,0.0122
+UZ,I160547875,Namangan State University,87,0.0175,0.012
+UZ,I4405257638,Asia International University,87,0.0175,0.012
+UZ,I4210154340,Jizzakh State Pedagogical University,82,0.0165,0.0113
+UZ,I4387155254,New Uzbekistan University,82,0.0165,0.0113
+UZ,I126419327,Tashkent State Transport University,81,0.0163,0.0111
+UZ,I4210128068,Karshi State University,78,0.0157,0.0107
+UZ,I4405263572,Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnologiyalari Universiteti Samarqand filiali,77,0.0155,0.0106
+UZ,I4210109177,Tashkent State University of Law,72,0.0145,0.0099
+UZ,I1300976906,Andijan State University,69,0.0139,0.0095
+UZ,I4396570483,Karshi State Technical University,66,0.0133,0.0091
+UZ,I1302269238,Academy of Sciences Republic of Uzbekistan,58,0.0117,0.008
+UZ,I4405255934,Shakhrisabz State Pedagogical Institute,57,0.0115,0.0078
+UZ,I4210159566,National Pedagogical University of Uzbekistan named after Nizami,56,0.0113,0.0077
+UZ,I4405257205,Denau Institute of Entrepreneurship and Pedagogy,50,0.0101,0.0069
+UZ,I4405261547,Andijon davlat chet tillari instituti,50,0.0101,0.0069
+UZ,I4405267534,Tashkent State Medical University,48,0.0097,0.0066
+UZ,I4210146373,Samarkand State Institute of Foreign Languages,47,0.0095,0.0065
+UZ,I4405254315,Chirchik State Pedagogical University,47,0.0095,0.0065
+UZ,I4399598470,Kokand University,46,0.0093,0.0063
+UZ,I4210139342,Navoi State University,41,0.0083,0.0056
+UZ,I4210096951,Central Asian University,39,0.0079,0.0054
+UZ,I4405264212,Namangan State Institute of Foreign Languages,37,0.0075,0.0051
+UZ,I4210097036,International Islamic Academy of Uzbekistan,36,0.0073,0.0049
+UZ,I4210162459,Karakalpak State University,36,0.0073,0.0049
+UZ,I4210129487,Samarkand State Medical Institute,35,0.0071,0.0048
+UZ,I4405263034,Buxoro davlat pedagogika instituti,35,0.0071,0.0048
+UZ,I4210134088,Gulistan State University,34,0.0069,0.0047
+UZ,I4210152839,Navoi State University of Mining and Technologies,33,0.0067,0.0045
+UZ,I4210142780,Turin Polytechnic University,30,0.006,0.0041
+UZ,I4210118158,Russian Economic University after G.V. Plekhanov,29,0.0058,0.004
+UZ,I4405263231,Kokand State University,29,0.0058,0.004
+UZ,I4210138851,Jizzakh Polytechnic Institute,28,0.0056,0.0038
+UZ,I4210090568,Samarkand Institute of Economics and Service,28,0.0056,0.0038
+UZ,I4405263222,Termez State Pedagogical Institute,28,0.0056,0.0038
+UZ,I4210098011,Bukhara State Medical Institute named after Abu Ali ibn Sino,28,0.0056,0.0038
+UZ,I4405254316,Andijon davlat texnika insituti,28,0.0056,0.0038
+UZ,I4210103860,Nukus State Pedagogical Institute named after Ajiniyaz,27,0.0054,0.0037
+UZ,I2800378187,Inha University in Tashkent,24,0.0048,0.0033
+UZ,I4210091792,Ferghana Polytechnical Institute,24,0.0048,0.0033
+UZ,I4405257245,Oriental Universiteti,24,0.0048,0.0033
+UZ,I4401200311,Urganch Innovation University,24,0.0048,0.0033
+UZ,I4210164592,Tashkent Medical Academy,23,0.0046,0.0032
+UZ,I61600748,Westminster International University in Tashkent,22,0.0044,0.003
+UZ,I4391012527,Andijan Machine-building Institute,21,0.0042,0.0029
+UZ,I4210136103,Tashkent Chemical-Technological Institute,21,0.0042,0.0029
+UZ,I4405260308,Namangan davlat texnika universiteti,21,0.0042,0.0029
+UZ,I4405275086,Nukus State Technical University,19,0.0038,0.0026
+UZ,I4210112770,Tashkent Institute of Textile and Light Industry,18,0.0036,0.0025
+UZ,I4405261864,University of Information Technologies and Management,17,0.0034,0.0023
+UZ,I3130880545,Tashkent Financial Institute,17,0.0034,0.0023
+UZ,I4210124473,Kokand State Pedagogical Institute named after Mukimi,17,0.0034,0.0023
+UZ,I80338172,University of World Economy and Diplomacy,16,0.0032,0.0022
+UZ,I1330688353,Tashkent State Agrarian University,16,0.0032,0.0022
+UZ,I4391012558,Nordic International University,16,0.0032,0.0022
+UZ,I4405287382,Fergana Medical Institute of Public Health,15,0.003,0.0021
+UZ,I4405258125,Buxoro davlat texnika universiteti,15,0.003,0.0021
+UZ,I4405255361,Tashkent International University,14,0.0028,0.0019
+UZ,I4405269594,Tashkent International University of Education,13,0.0026,0.0018
+UZ,I4405255631,Namangan State Pedagogical Institute,13,0.0026,0.0018
+UZ,I4405266792,University of Business and Science,13,0.0026,0.0018
+UZ,I4210114747,Samarkand State Architectural and Civil-Engineering Institute,12,0.0024,0.0016
+UZ,I4392738097,Andijon Davlat Pedagogika instituti,12,0.0024,0.0016
+UZ,I4401041581,"""Silk Road"" International University of Tourism and Cultural Heritage",12,0.0024,0.0016
+UZ,I4391767850,"Samarkand State University of Veterinary Medicine, Livestock and Biotechnologies",12,0.0024,0.0016
+UZ,I4210096127,Tashkent Pharmaceutical Institute,11,0.0022,0.0015
+UZ,I4405260651,Buxoro muhandislik-texnologiya instituti,11,0.0022,0.0015
+UZ,I4405253188,Tashkent Institute of Management and Economics,11,0.0022,0.0015
+UZ,I4210097274,Tashkent Institute of Architecture and Civil Engineering,10,0.002,0.0014
+UZ,I4387930244,Tashkent Medical Academy Urgench Branch,10,0.002,0.0014
+UZ,I4405255878,Namangan Institute of Engineering and Technology,9,0.0018,0.0012
+UZ,I4405263384,Kokand University Andijan branch,9,0.0018,0.0012
+UZ,I4210161197,Andijan State Medical Institute,8,0.0016,0.0011
+UZ,I4405257889,Law Enforcement Academy of the Republic of Uzbekistan,8,0.0016,0.0011
+UZ,I4405272044,Tashkent University of Economics and Pedagogy (TIPU),8,0.0016,0.0011
+UZ,I4405264914,University of Exact and Social Sciences,8,0.0016,0.0011
+UZ,I4405265914,Sarbon University,7,0.0014,0.001
+UZ,I4405255564,Renaissance Educational University,7,0.0014,0.001
+UZ,I4405271395,Bukhara University of Innovations,7,0.0014,0.001
+UZ,I4405268485,Urganch RANCH Texnologiya Universiteti,7,0.0014,0.001
+UZ,I4210162425,Tashkent Pediatric Medical Institute,6,0.0012,0.0008
+UZ,I4394709282,Samarkand branch of Tashkent State University of Economics,6,0.0012,0.0008
+UZ,I4405263322,Xalqaro Innovatsion Universiteti,6,0.0012,0.0008
+UZ,I4405262002,Al-Khwarizmi University,6,0.0012,0.0008
+UZ,I4389425504,Central Asian Medical University,6,0.0012,0.0008
+UZ,I4405258933,Uzbek State University of Physical Culture and Sport,5,0.001,0.0007
+UZ,I4388482687,Republican Specialized Scientific and Practical Medical Center of Oncology and Radiology,5,0.001,0.0007
+UZ,I4405271887,Uzbekistan State Institute of Arts and Culture,5,0.001,0.0007
+UZ,I4405283522,O‘zbekiston Respublikasi Prezident huzuridagi davlat siyosati va boshqaruv akademiyasi,5,0.001,0.0007
+UZ,I4391012630,Ajou University in Tashkent,4,0.0008,0.0005
+UZ,I4405261045,Buxoro tabiiy resurslarni boshqarish instituti,4,0.0008,0.0005
+UZ,I4405272946,"Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan",4,0.0008,0.0005
+UZ,I4402554124,University of Science and Technologies,4,0.0008,0.0005
+UZ,I4405271656,Bukhara Innovative University of Education and Medicine,4,0.0008,0.0005
+UZ,I4391012526,Institute of Geology and Geophysics named after Kh.M. Abdullaev,4,0.0008,0.0005
+UZ,I4405264509,Institute of Mechanics and Seismic Stability of Structures named after M.T. Urazbaev,3,0.0006,0.0004
+UZ,I4405253649,Kokand branch of Tashkent State Technical University named after Islam Karimov,3,0.0006,0.0004
+UZ,I4387155160,Graduate School of Business and Entrepreneurship under the Cabinet of Ministers of the Republic of Uzbekistan,3,0.0006,0.0004
+UZ,I4405258343,Tashkent University of Social Innovation,3,0.0006,0.0004
+UZ,I4210106286,Institute of Ion Plasma Laser Technologies,3,0.0006,0.0004
+UZ,I4405285807,Turon University,3,0.0006,0.0004
+UZ,I4405273761,Kattakurgan State Pedagogical Institute,3,0.0006,0.0004
+UZ,I4210086175,Ministry of Health of the Republic of Uzbekistan,2,0.0004,0.0003
+UZ,I4405266844,Abu Rayhon Beruniy nomidagi Sharqshunoslik instituti,2,0.0004,0.0003
+UZ,I4387155051,Termez Institute of Engineering and Technology,2,0.0004,0.0003
+UZ,I4210103575,Ulugh Beg Astronomical Institute,2,0.0004,0.0003
+UZ,I4210156735,The Institute of History of The Academy of Sciences of The Republic of Uzbekistan,2,0.0004,0.0003
+UZ,I4405286108,Karshi International University,2,0.0004,0.0003
+UZ,I4405257392,Research Institute of Environment and Nature Conservation Technologies,2,0.0004,0.0003
+UZ,I4405266902,Uzbekistan National Institute of Musical Art named after Yunus Rajabi,2,0.0004,0.0003
+UZ,I4405272056,Termez branch of Tashkent State Medical University,2,0.0004,0.0003
+UZ,I4405284725,Toshkent iqtisodiyot va texnologiyalari universiteti,2,0.0004,0.0003
+UZ,I4392738074,Institute of Agriculture and Agrotechnologies of Karakalpakstan,2,0.0004,0.0003
+UZ,I4405263956,Central Asian University of Environmental and Climate Change Studies (Green University),2,0.0004,0.0003
+UZ,I4210153735,Namangan Engineering Pedagogical Institute,1,0.0002,0.0001
+UZ,I4405269607,Euroasian Multidisciplinary University,1,0.0002,0.0001
+UZ,I4210133250,Tashkent Institute Of Postgraduate Medical Education,1,0.0002,0.0001
+UZ,I3129977379,Tashkent Automobile and Road Construction Institute,1,0.0002,0.0001
+UZ,I4405280343,Institute of Botany of the Academy of Sciences of Uzbekistan,1,0.0002,0.0001
+UZ,I4210090042,Interstate Commission for Water Coordination of Central Asia,1,0.0002,0.0001
+UZ,I4210111096,Centre for Theoretical Physics and Astrophysics,1,0.0002,0.0001
+UZ,I4405263471,Impuls Medical Institute,1,0.0002,0.0001
+UZ,I4210099818,Institute of Nuclear Physics,1,0.0002,0.0001
+UZ,I4405253811,International Institute of Food Technology and Engineering,1,0.0002,0.0001
+UZ,I4405262948,Republikcan Scientific and Practical Medical Center of Endocrinology Named After Academician Y.H. Turakulov,1,0.0002,0.0001
+UZ,I4210104707,Ministry of Economy of the Republic of Uzbekistan,1,0.0002,0.0001
+UZ,I4399598376,British Management University in Tashkent,1,0.0002,0.0001
+UZ,I4405270660,Oʻzbekiston davlat sanʼat va madaniyat instituti Nukus filiali,1,0.0002,0.0001
+UZ,I4405265997,Bukhara International University,1,0.0002,0.0001
+UZ,I4405259882,Center for Research of Problems in Privatization and State Assets Management,1,0.0002,0.0001
+UZ,I4405284798,Yangi Asr Universiteti,1,0.0002,0.0001
+UZ,I2800639250,Central Bank of Uzbekistan,1,0.0002,0.0001
+UZ,I4405283720,ZARMED University,1,0.0002,0.0001
+KZ,I185571130,Al-Farabi Kazakh National University,832,0.2071,0.1383
+KZ,I60559429,Nazarbayev University,736,0.1832,0.1223
+KZ,I10232997,L. N. Gumilyov Eurasian National University,586,0.1459,0.0974
+KZ,I4405257690,Astana IT University,411,0.1023,0.0683
+KZ,I4210135055,Institute of Information and Computational Technologies,352,0.0876,0.0585
+KZ,I4210143508,International Information Technologies University,295,0.0734,0.049
+KZ,I204275683,Satbayev University,294,0.0732,0.0489
+KZ,I171571821,Kazakh-British Technical University,226,0.0563,0.0376
+KZ,I4210117727,D. Serikbayev East Kazakhstan State Technical University,110,0.0274,0.0183
+KZ,I4210120897,Suleyman Demirel University,108,0.0269,0.018
+KZ,I247491477,Almaty University of Power Engineering and Telecommunications,106,0.0264,0.0176
+KZ,I4210124329,S.Seifullin Kazakh Agro Technical University,88,0.0219,0.0146
+KZ,I2801707353,Ahmet Yesevi University,83,0.0207,0.0138
+KZ,I3130577743,Narxoz University,71,0.0177,0.0118
+KZ,I4210128045,Abai Kazakh National Pedagogical University,70,0.0174,0.0116
+KZ,I4403928190,Astana International University,64,0.0159,0.0106
+KZ,I921103022,Manash Kozybayev North Kazakhstan University,63,0.0157,0.0105
+KZ,I4210151108,M.Auezov South Kazakhstan State University,62,0.0154,0.0103
+KZ,I3130777500,Turan University,60,0.0149,0.01
+KZ,I4210131705,Abylkas Saginov Karaganda Technical University,60,0.0149,0.01
+KZ,I4210154294,Khalel Dosmukhamedov Atyrau University,55,0.0137,0.0091
+KZ,I4210114545,Almaty Technological University,49,0.0122,0.0081
+KZ,I4210106095,Aktobe Regional State University named after K.Zhubanov,49,0.0122,0.0081
+KZ,I4210101819,M. Kh Dulati Taraz State University,48,0.0119,0.008
+KZ,I4210096915,Sarsen Amanzholov East Kazakhstan University,43,0.0107,0.0071
+KZ,I4387153288,Dulaty University,40,0.01,0.0066
+KZ,I4405263141,International University of Tourism and Hospitality,39,0.0097,0.0065
+KZ,I4387930291,Mukhametzhan Tynyshbayev ALT University,37,0.0092,0.0062
+KZ,I4210159258,Shakarim University,36,0.009,0.006
+KZ,I4387152782,Kazakh National Women's Teacher Training University,35,0.0087,0.0058
+KZ,I4210129744,Korkyt Ata Kyzylorda State University,32,0.008,0.0053
+KZ,I4210162802,Kazakh Technology and Business University named after K.Kulazhanov,31,0.0077,0.0052
+KZ,I2800164252,Karaganda Buketov University,31,0.0077,0.0052
+KZ,I4405262318,International Engineering and Technological University,31,0.0077,0.0052
+KZ,I4210136233,Zhangir Khan West Kazakhstan Agrarian Technical University,29,0.0072,0.0048
+KZ,I4210101268,Toraighyrov University,28,0.007,0.0047
+KZ,I191378831,Kazakh National Medical University,27,0.0067,0.0045
+KZ,I4210091087,Yessenov University,26,0.0065,0.0043
+KZ,I4210119570,Kokshetau State University,26,0.0065,0.0043
+KZ,I4389425228,Akhmet Baitursynuly Kostanay Regional University,26,0.0065,0.0043
+KZ,I4405271843,Esil University,25,0.0062,0.0042
+KZ,I105208703,Almaty Management University,24,0.006,0.004
+KZ,I4405259453,Joldasbekov Institute of Mechanics and Engineering,22,0.0055,0.0037
+KZ,I4210162028,Ionosphere Institute,21,0.0052,0.0035
+KZ,I4210163871,Zhetysu University named after Ilyas Zhansugurov,20,0.005,0.0033
+KZ,I869467088,KIMEP University,19,0.0047,0.0032
+KZ,I4210159690,Kostanay State University A Baitursynov,19,0.0047,0.0032
+KZ,I4210158296,Academy of Civil Aviation,19,0.0047,0.0032
+KZ,I4210141757,Astana Medical University,17,0.0042,0.0028
+KZ,I4405256123,International Taraz University named after Sherkhan Murtaza,17,0.0042,0.0028
+KZ,I4210143225,Ministry of Education and Science of the Republic of Kazakhstan,16,0.004,0.0027
+KZ,I4405263509,Academician A. Kuatbekov People’s Friendship University,15,0.0037,0.0025
+KZ,I4405252596,Q University,15,0.0037,0.0025
+KZ,I4401200292,Ministry of Science and Higher Education of the Republic of Kazakhstan,15,0.0037,0.0025
+KZ,I4210120406,KazMunayGas (Kazakhstan),14,0.0035,0.0023
+KZ,I4405252679,Academy of Public Administration under the President of the Republic of Kazakhstan,14,0.0035,0.0023
+KZ,I4405260809,Nazarbayev Intellectual Schools,14,0.0035,0.0023
+KZ,I4210111563,National Academy of Sciences of the Republic of Kazakhstan,13,0.0032,0.0022
+KZ,I4405252487,National Academy of Education named after Y. Altynsarin,13,0.0032,0.0022
+KZ,I4210132940,Karaganda State Industrial University,13,0.0032,0.0022
+KZ,I4210151480,Institute of Mathematics and Mathematical Modeling,13,0.0032,0.0022
+KZ,I4210148059,Atyrau University of Oil and Gas,13,0.0032,0.0022
+KZ,I4210121010,Kazakh Institute of Oncology and Radiology,13,0.0032,0.0022
+KZ,I4405254511,De Montfort University Kazakhstan,12,0.003,0.002
+KZ,I4210128817,Kazakh National Agrarian Research University,11,0.0027,0.0018
+KZ,I4210157209,Caspian University,10,0.0025,0.0017
+KZ,I4210132463,Kazakh-American Free University,10,0.0025,0.0017
+KZ,I4210119320,Private Institution “Karaganda University of Kazpotrebsoyuz”,10,0.0025,0.0017
+KZ,I4210108340,University of International Business,9,0.0022,0.0015
+KZ,I2801841357,Kazakh Ablai Khan University of International Relations and World Languages,9,0.0022,0.0015
+KZ,I4387152926,Alikhan Bokeikhan University,9,0.0022,0.0015
+KZ,I4210087499,Mahambet Otemiusly West Kazakhstan University,9,0.0022,0.0015
+KZ,I4210115547,Karaganda Medical University,8,0.002,0.0013
+KZ,I4210110325,Margulan University,8,0.002,0.0013
+KZ,I4387152473,Nur-Mubarak University,8,0.002,0.0013
+KZ,I4405254687,Kostanay Socio-Technical University named after academician Z. Aldamzhar,7,0.0017,0.0012
+KZ,I4405258609,Ministry of Internal Affairs of the Republic of Kazakhstan,6,0.0015,0.001
+KZ,I4387152921,Institute of Nuclear Physics,6,0.0015,0.001
+KZ,I4210132536,Kazakh Academy of Transport and Communications named after M.Tynyshpaev,5,0.0012,0.0008
+KZ,I4403386502,Kazakh Leading Academy of Architecture and Civil Engineering,5,0.0012,0.0008
+KZ,I4210132247,National Nuclear Center of the Republic of Kazakhstan,5,0.0012,0.0008
+KZ,I4210130920,West Kazakhstan Marat Ospanov State Medical University,5,0.0012,0.0008
+KZ,I4210117112,South Kazakhstan Medical Academy,5,0.0012,0.0008
+KZ,I4405264662,West Kazakhstan University of Innovation and Technology,5,0.0012,0.0008
+KZ,I4210156956,T.K. Zhurgenov Kazakh National Academy of Arts,5,0.0012,0.0008
+KZ,I4210134323,Maqsut Narikbayev University,5,0.0012,0.0008
+KZ,I4405255559,Institute of Economics,4,0.001,0.0007
+KZ,I4391012522,Tashenev University,4,0.001,0.0007
+KZ,I4210118717,Kazakh Academy of Sport and Tourism,4,0.001,0.0007
+KZ,I4210153665,"Institute of Philosophy, Political Science and Religious Studies",4,0.001,0.0007
+KZ,I4210119247,National Center of Space Research and Technology,4,0.001,0.0007
+KZ,I4210097753,Kazakh-American University,3,0.0007,0.0005
+KZ,I4210124213,Kazakh University Ways of Communications,3,0.0007,0.0005
+KZ,I4210132094,Institute of Physics and Technology,3,0.0007,0.0005
+KZ,I4405263304,Medical Center Hospital of the President’s affairs Administration of the Republic of Kazakhstan,3,0.0007,0.0005
+KZ,I4392021252,Almaty Humanitarian-Economic University,3,0.0007,0.0005
+KZ,I4405258336,Bolashaq Academy,2,0.0005,0.0003
+KZ,I4210145332,Zhezkazgan Baikonurov University,2,0.0005,0.0003
+KZ,I4210123275,Ministry of Health of the Republic of Kazakhstan,2,0.0005,0.0003
+KZ,I4210097246,Rudny Industrial Institute,2,0.0005,0.0003
+KZ,I4210107477,Institute of Legislation and Legal Information of the Republic of Kazakhstan,2,0.0005,0.0003
+KZ,I4405270396,Republican Research Institute for Occupational Safety and Health,2,0.0005,0.0003
+KZ,I4210139387,Taraz State Pedagogical University,1,0.0002,0.0002
+KZ,I4210164095,Institute of Seismology,1,0.0002,0.0002
+KZ,I4405274858,"""Institute of Metallurgy and Ore Beneficiation"" JSC",1,0.0002,0.0002
+KZ,I4210150488,Ministry of Justice of the Republic of Kazakhstan,1,0.0002,0.0002
+KZ,I1288059949,International Finance Corporation,1,0.0002,0.0002
+KZ,I4210159213,National Scientific Center for Surgery named after A.N. Syzganov,1,0.0002,0.0002
+KZ,I4210156398,Institute of Archaeology named after A.Kh.Margulan,1,0.0002,0.0002
+KZ,I4210145891,Kazakh German University,1,0.0002,0.0002
+KZ,I4210128576,Kazakhstan Medical University,1,0.0002,0.0002
+KZ,I4210120615,Institute of Zoology,1,0.0002,0.0002
+KZ,I4405253743,Kulyash Bayseyitova Kazakh National University of Arts,1,0.0002,0.0002
+KZ,I3130205573,Innovative University of Eurasia,1,0.0002,0.0002
+KZ,I4405266375,"""University Medical Center"" Corporate Fund",1,0.0002,0.0002
+KZ,I4405266335,"JSC ""Research Institute of Cardiology and Internal Diseases""",1,0.0002,0.0002
+KZ,I4210094413,Eurasian Humanities Institute,1,0.0002,0.0002
+KZ,I4210135680,Semey Medical University,1,0.0002,0.0002
+KZ,I4405257885,Association for the Conservation of Biodiversity of Kazakhstan,1,0.0002,0.0002
+KZ,I4405282733,Ekibastuz Engineering and Technical Institute named after Academician K. Satpayev,1,0.0002,0.0002
+KG,I110346614,University of Central Asia,56,0.1493,0.1321
+KG,I4210087420,Kyrgyz State National University,54,0.144,0.1274
+KG,I13377790,Ala-Too International University,43,0.1147,0.1014
+KG,I4210108543,National Academy of Sciences of the Republic of Kyrgyzstan,41,0.1093,0.0967
+KG,I17831865,Kyrgyz State Technical University,36,0.096,0.0849
+KG,I186862513,Osh State University,33,0.088,0.0778
+KG,I4210156544,Kyrgyz-Türkish Manas Üniversity,32,0.0853,0.0755
+KG,I49439280,Kyrgyz National University,29,0.0773,0.0684
+KG,I4210090146,Osh Technological University,19,0.0507,0.0448
+KG,I4210088031,"Kyrgyz State University of Construction, Transport and Architecture named after N. Isanov",17,0.0453,0.0401
+KG,I4210086629,Research Station of the Russian Academy of Sciences in Bishkek,11,0.0293,0.0259
+KG,I4210145467,International University of Kyrgyzstan,9,0.024,0.0212
+KG,I4210097106,Kyrgyz-Uzbek International University named after Batyraly Sydykov,8,0.0213,0.0189
+KG,I220289513,American University of Central Asia,7,0.0187,0.0165
+KG,I4210091405,Central-Asian Institute for Applied Geosciences,5,0.0133,0.0118
+KG,I4210095593,Kyrgyz Economic University,5,0.0133,0.0118
+KG,I4405260706,Naryn State University named after Satybaldy Naamatov,3,0.008,0.0071
+KG,I4210106343,The Ministry of Education and Science of the Kyrgyz Republic,3,0.008,0.0071
+KG,I4210108535,Batken State University,2,0.0053,0.0047
+KG,I4210160873,Bishkek Academy of Finance and Economics,2,0.0053,0.0047
+KG,I4405257610,International University named after K.Sh.Toktomamatov,2,0.0053,0.0047
+KG,I3129643721,Jalalabad State University,2,0.0053,0.0047
+KG,I4210114215,Kyrgyz-Russian Slavic University named after B.N. Yeltsin,1,0.0027,0.0024
+KG,I4387154298,International Higher School of Medicine,1,0.0027,0.0024
+KG,I4405252452,Salymbekov University,1,0.0027,0.0024
+KG,I4405256683,Osh State Pedagogical University named after A. Myrsabekov,1,0.0027,0.0024
+KG,I249221766,Kyrgyz National Agrarian University named after K.I. Skryabin,1,0.0027,0.0024
+TJ,I3132042963,Khujand State University,12,0.2034,0.1765
+TJ,I172183325,Tajik National University,11,0.1864,0.1618
+TJ,I4210104687,Tajik Technical University named after academic M.S.Osimi,11,0.1864,0.1618
+TJ,I3132631111,Technological University of Tajikistan,11,0.1864,0.1618
+TJ,I200705115,Academy of Sciences of the Republic of Tajikistan,8,0.1356,0.1176
+TJ,I4405257097,Institute of Mathematics National Academy of Science of Tajikistan,3,0.0508,0.0441
+TJ,I3131746957,Tajik State University of Commerce,3,0.0508,0.0441
+TJ,I4400009001,S. U. Umarov Physical-Technical Institute,2,0.0339,0.0294
+TJ,I4210087361,Tajik State University of Law Business and Politics,2,0.0339,0.0294
+TJ,I4210109495,Finance and Economics Institute of Tajikistan,1,0.0169,0.0147
+TJ,I4210150146,Moscow State University,1,0.0169,0.0147
+TJ,I2800361424,Tajik State Medical University,1,0.0169,0.0147
+TJ,I1288463179,Ministry of Internal Affairs of the Republic of Tajikistan,1,0.0169,0.0147
+TJ,I16736912,Russian-Tajik Slavonic University,1,0.0169,0.0147
+TM,I4405261939,Oguz Han Engineering and Technology University of Turkmenistan,8,0.5,0.4706
+TM,I4210161206,International Oil and Gas University,5,0.3125,0.2941
+TM,I4210097839,Turkmen State Power Engineering Institute,3,0.1875,0.1765
+TM,I3131038724,Turkmen State Medical University,1,0.0625,0.0588

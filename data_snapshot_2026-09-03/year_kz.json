@@ -1,0 +1,91 @@
+{
+ "country": "kz",
+ "years": [
+  {
+   "key": "2025",
+   "key_display_name": "2025",
+   "count": 750
+  },
+  {
+   "key": "2026",
+   "key_display_name": "2026",
+   "count": 533
+  },
+  {
+   "key": "2024",
+   "key_display_name": "2024",
+   "count": 511
+  },
+  {
+   "key": "2023",
+   "key_display_name": "2023",
+   "count": 353
+  },
+  {
+   "key": "2022",
+   "key_display_name": "2022",
+   "count": 268
+  },
+  {
+   "key": "2021",
+   "key_display_name": "2021",
+   "count": 244
+  },
+  {
+   "key": "2020",
+   "key_display_name": "2020",
+   "count": 195
+  },
+  {
+   "key": "2019",
+   "key_display_name": "2019",
+   "count": 189
+  },
+  {
+   "key": "2018",
+   "key_display_name": "2018",
+   "count": 147
+  },
+  {
+   "key": "2017",
+   "key_display_name": "2017",
+   "count": 111
+  },
+  {
+   "key": "2016",
+   "key_display_name": "2016",
+   "count": 107
+  },
+  {
+   "key": "2015",
+   "key_display_name": "2015",
+   "count": 91
+  },
+  {
+   "key": "2014",
+   "key_display_name": "2014",
+   "count": 84
+  },
+  {
+   "key": "2013",
+   "key_display_name": "2013",
+   "count": 63
+  },
+  {
+   "key": "2012",
+   "key_display_name": "2012",
+   "count": 36
+  },
+  {
+   "key": "2011",
+   "key_display_name": "2011",
+   "count": 23
+  },
+  {
+   "key": "2010",
+   "key_display_name": "2010",
+   "count": 17
+  }
+ ],
+ "total": 3722
+}

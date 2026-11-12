@@ -1,0 +1,1012 @@
+{
+ "meta": {
+  "count": 7248,
+  "db_response_time_ms": 606,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 200,
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/I4210150146",
+   "key_display_name": "Moscow State University",
+   "count": 1250
+  },
+  {
+   "key": "https://openalex.org/I19880235",
+   "key_display_name": "Lomonosov Moscow State University",
+   "count": 1163
+  },
+  {
+   "key": "https://openalex.org/I60559429",
+   "key_display_name": "Nazarbayev University",
+   "count": 655
+  },
+  {
+   "key": "https://openalex.org/I185571130",
+   "key_display_name": "Al-Farabi Kazakh National University",
+   "count": 508
+  },
+  {
+   "key": "https://openalex.org/I21256249",
+   "key_display_name": "Tashkent University of Information Technology",
+   "count": 440
+  },
+  {
+   "key": "https://openalex.org/I47151758",
+   "key_display_name": "National University of Uzbekistan",
+   "count": 385
+  },
+  {
+   "key": "https://openalex.org/I10232997",
+   "key_display_name": "L. N. Gumilyov Eurasian National University",
+   "count": 328
+  },
+  {
+   "key": "https://openalex.org/I3131790217",
+   "key_display_name": "Bukhara State University",
+   "count": 296
+  },
+  {
+   "key": "https://openalex.org/I4210135055",
+   "key_display_name": "Institute of Information and Computational Technologies",
+   "count": 254
+  },
+  {
+   "key": "https://openalex.org/I204275683",
+   "key_display_name": "Satbayev University",
+   "count": 251
+  },
+  {
+   "key": "https://openalex.org/I4210141757",
+   "key_display_name": "Astana Medical University",
+   "count": 242
+  },
+  {
+   "key": "https://openalex.org/I4210120897",
+   "key_display_name": "Suleyman Demirel University",
+   "count": 210
+  },
+  {
+   "key": "https://openalex.org/I4210143508",
+   "key_display_name": "International Information Technologies University",
+   "count": 179
+  },
+  {
+   "key": "https://openalex.org/I55383850",
+   "key_display_name": "Tashkent State University of Economics",
+   "count": 178
+  },
+  {
+   "key": "https://openalex.org/I14916453",
+   "key_display_name": "Urgench State University",
+   "count": 177
+  },
+  {
+   "key": "https://openalex.org/I171571821",
+   "key_display_name": "Kazakh-British Technical University",
+   "count": 157
+  },
+  {
+   "key": "https://openalex.org/I4210142780",
+   "key_display_name": "Turin Polytechnic University",
+   "count": 152
+  },
+  {
+   "key": "https://openalex.org/I1299170990",
+   "key_display_name": "Samarkand State University named after Sharof Rashidov",
+   "count": 141
+  },
+  {
+   "key": "https://openalex.org/I4210151480",
+   "key_display_name": "Institute of Mathematics and Mathematical Modeling",
+   "count": 137
+  },
+  {
+   "key": "https://openalex.org/I4210159709",
+   "key_display_name": "Termez State University",
+   "count": 132
+  },
+  {
+   "key": "https://openalex.org/I3133440902",
+   "key_display_name": "Tashkent State University of Oriental Studies",
+   "count": 116
+  },
+  {
+   "key": "https://openalex.org/I1302269238",
+   "key_display_name": "Academy of Sciences Republic of Uzbekistan",
+   "count": 115
+  },
+  {
+   "key": "https://openalex.org/I177477856",
+   "key_display_name": "Politecnico di Torino",
+   "count": 112
+  },
+  {
+   "key": "https://openalex.org/I4210109462",
+   "key_display_name": "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers",
+   "count": 98
+  },
+  {
+   "key": "https://openalex.org/I4210164095",
+   "key_display_name": "Institute of Seismology",
+   "count": 93
+  },
+  {
+   "key": "https://openalex.org/I1313323035",
+   "key_display_name": "Russian Academy of Sciences",
+   "count": 91
+  },
+  {
+   "key": "https://openalex.org/I4210109177",
+   "key_display_name": "Tashkent State University of Law",
+   "count": 86
+  },
+  {
+   "key": "https://openalex.org/I4210117727",
+   "key_display_name": "D. Serikbayev East Kazakhstan State Technical University",
+   "count": 81
+  },
+  {
+   "key": "https://openalex.org/I188973947",
+   "key_display_name": "Novosibirsk State University",
+   "count": 79
+  },
+  {
+   "key": "https://openalex.org/I160547875",
+   "key_display_name": "Namangan State University",
+   "count": 74
+  },
+  {
+   "key": "https://openalex.org/I247491477",
+   "key_display_name": "Almaty University of Power Engineering and Telecommunications",
+   "count": 74
+  },
+  {
+   "key": "https://openalex.org/I118501908",
+   "key_display_name": "National Research University Higher School of Economics",
+   "count": 71
+  },
+  {
+   "key": "https://openalex.org/I3020809043",
+   "key_display_name": "Tashkent State Technical University named after Islam Karimov",
+   "count": 69
+  },
+  {
+   "key": "https://openalex.org/I4210128045",
+   "key_display_name": "Abai Kazakh National Pedagogical University",
+   "count": 68
+  },
+  {
+   "key": "https://openalex.org/I8264552",
+   "key_display_name": "Lublin University of Technology",
+   "count": 65
+  },
+  {
+   "key": "https://openalex.org/I4210096862",
+   "key_display_name": "Sobolev Institute of Mathematics",
+   "count": 63
+  },
+  {
+   "key": "https://openalex.org/I61600748",
+   "key_display_name": "Westminster International University in Tashkent",
+   "count": 63
+  },
+  {
+   "key": "https://openalex.org/I4210091792",
+   "key_display_name": "Ferghana Polytechnical Institute",
+   "count": 58
+  },
+  {
+   "key": "https://openalex.org/I4210153735",
+   "key_display_name": "Namangan Engineering Pedagogical Institute",
+   "count": 56
+  },
+  {
+   "key": "https://openalex.org/I3131779051",
+   "key_display_name": "Iraqi University",
+   "count": 52
+  },
+  {
+   "key": "https://openalex.org/I4210131705",
+   "key_display_name": "Abylkas Saginov Karaganda Technical University",
+   "count": 51
+  },
+  {
+   "key": "https://openalex.org/I110346614",
+   "key_display_name": "University of Central Asia",
+   "count": 50
+  },
+  {
+   "key": "https://openalex.org/I12832649",
+   "key_display_name": "Gachon University",
+   "count": 49
+  },
+  {
+   "key": "https://openalex.org/I4210106095",
+   "key_display_name": "Aktobe Regional State University named after K.Zhubanov",
+   "count": 49
+  },
+  {
+   "key": "https://openalex.org/I1300976906",
+   "key_display_name": "Andijan State University",
+   "count": 48
+  },
+  {
+   "key": "https://openalex.org/I126419327",
+   "key_display_name": "Tashkent State Transport University",
+   "count": 47
+  },
+  {
+   "key": "https://openalex.org/I2800164252",
+   "key_display_name": "Karaganda Buketov University",
+   "count": 47
+  },
+  {
+   "key": "https://openalex.org/I2801707353",
+   "key_display_name": "Ahmet Yesevi University",
+   "count": 47
+  },
+  {
+   "key": "https://openalex.org/I2800614057",
+   "key_display_name": "Kalinga University",
+   "count": 46
+  },
+  {
+   "key": "https://openalex.org/I4210108340",
+   "key_display_name": "University of International Business",
+   "count": 46
+  },
+  {
+   "key": "https://openalex.org/I4210151108",
+   "key_display_name": "M.Auezov South Kazakhstan State University",
+   "count": 45
+  },
+  {
+   "key": "https://openalex.org/I175124709",
+   "key_display_name": "Süleyman Demirel University",
+   "count": 44
+  },
+  {
+   "key": "https://openalex.org/I13377790",
+   "key_display_name": "Ala-Too International University",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/I4210102006",
+   "key_display_name": "Uzbek State University of World Languages",
+   "count": 43
+  },
+  {
+   "key": "https://openalex.org/I4210124329",
+   "key_display_name": "S.Seifullin Kazakh Agro Technical University",
+   "count": 42
+  },
+  {
+   "key": "https://openalex.org/I4210087420",
+   "key_display_name": "Kyrgyz State National University",
+   "count": 41
+  },
+  {
+   "key": "https://openalex.org/I4210128068",
+   "key_display_name": "Karshi State University",
+   "count": 41
+  },
+  {
+   "key": "https://openalex.org/I153845743",
+   "key_display_name": "Moscow Institute of Physics and Technology",
+   "count": 39
+  },
+  {
+   "key": "https://openalex.org/I4210104713",
+   "key_display_name": "Ferghana State University",
+   "count": 39
+  },
+  {
+   "key": "https://openalex.org/I4210159566",
+   "key_display_name": "National Pedagogical University of Uzbekistan",
+   "count": 39
+  },
+  {
+   "key": "https://openalex.org/I3130577743",
+   "key_display_name": "Narxoz University",
+   "count": 38
+  },
+  {
+   "key": "https://openalex.org/I4210100610",
+   "key_display_name": "Vinnytsia National Technical University",
+   "count": 37
+  },
+  {
+   "key": "https://openalex.org/I4210157209",
+   "key_display_name": "Caspian University",
+   "count": 36
+  },
+  {
+   "key": "https://openalex.org/I4210101819",
+   "key_display_name": "M. Kh Dulati Taraz State University",
+   "count": 35
+  },
+  {
+   "key": "https://openalex.org/I4210124473",
+   "key_display_name": "Kokand State Pedagogical Institute named after Mukimi",
+   "count": 35
+  },
+  {
+   "key": "https://openalex.org/I186862513",
+   "key_display_name": "Osh State University",
+   "count": 34
+  },
+  {
+   "key": "https://openalex.org/I126527374",
+   "key_display_name": "Peoples' Friendship University of Russia",
+   "count": 33
+  },
+  {
+   "key": "https://openalex.org/I4387155254",
+   "key_display_name": "New Uzbekistan University",
+   "count": 33
+  },
+  {
+   "key": "https://openalex.org/I21203515",
+   "key_display_name": "Kazan Federal University",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/I3130777500",
+   "key_display_name": "Turan University",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/I4210120406",
+   "key_display_name": "KazMunayGas (Kazakhstan)",
+   "count": 32
+  },
+  {
+   "key": "https://openalex.org/I17831865",
+   "key_display_name": "Kyrgyz State Technical University",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I4210108543",
+   "key_display_name": "National Academy of Sciences of the Republic of Kyrgyzstan",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I4210131335",
+   "key_display_name": "Institute of Mathematics with Computer Center",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I4210162459",
+   "key_display_name": "Karakalpak State University",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I60054993",
+   "key_display_name": "Graphic Era University",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I883909435",
+   "key_display_name": "International University",
+   "count": 31
+  },
+  {
+   "key": "https://openalex.org/I4210099818",
+   "key_display_name": "Institute of Nuclear Physics",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/I4210143225",
+   "key_display_name": "Ministry of Education and Science of the Republic of Kazakhstan",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/I4210162425",
+   "key_display_name": "Tashkent Pediatric Medical Institute",
+   "count": 30
+  },
+  {
+   "key": "https://openalex.org/I4210146373",
+   "key_display_name": "Samarkand State Institute of Foreign Languages",
+   "count": 29
+  },
+  {
+   "key": "https://openalex.org/I4210159258",
+   "key_display_name": "Shakarim University",
+   "count": 29
+  },
+  {
+   "key": "https://openalex.org/I85461943",
+   "key_display_name": "Saveetha University",
+   "count": 29
+  },
+  {
+   "key": "https://openalex.org/I105208703",
+   "key_display_name": "Almaty Management University",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/I4210107660",
+   "key_display_name": "Institute for Information Transmission Problems",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/I4210165882",
+   "key_display_name": "Economic Research Institute",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/I921103022",
+   "key_display_name": "Manash Kozybayev North Kazakhstan University",
+   "count": 28
+  },
+  {
+   "key": "https://openalex.org/I212220629",
+   "key_display_name": "Peter the Great St. Petersburg Polytechnic University",
+   "count": 26
+  },
+  {
+   "key": "https://openalex.org/I4210111563",
+   "key_display_name": "National Academy of Sciences of the Republic of Kazakhstan",
+   "count": 26
+  },
+  {
+   "key": "https://openalex.org/I4210114545",
+   "key_display_name": "Almaty Technological University",
+   "count": 26
+  },
+  {
+   "key": "https://openalex.org/I4210154340",
+   "key_display_name": "Jizzakh State Pedagogical University",
+   "count": 26
+  },
+  {
+   "key": "https://openalex.org/I4210137797",
+   "key_display_name": "Economic Research Institute",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/I4210156544",
+   "key_display_name": "Kyrgyz-Türkish Manas Üniversity",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/I48912391",
+   "key_display_name": "Istanbul Technical University",
+   "count": 25
+  },
+  {
+   "key": "https://openalex.org/I191378831",
+   "key_display_name": "Kazakh National Medical University",
+   "count": 24
+  },
+  {
+   "key": "https://openalex.org/I2801160905",
+   "key_display_name": "Steklov Mathematical Institute",
+   "count": 24
+  },
+  {
+   "key": "https://openalex.org/I4210161197",
+   "key_display_name": "Andijan State Medical Institute",
+   "count": 24
+  },
+  {
+   "key": "https://openalex.org/I201799495",
+   "key_display_name": "Middle East Technical University",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I4210098011",
+   "key_display_name": "Bukhara State Medical Institute named after Abu Ali ibn Sino",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I4210129744",
+   "key_display_name": "Korkyt Ata Kyzylorda State University",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I4210143490",
+   "key_display_name": "Computing Center",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I4210152839",
+   "key_display_name": "Navoi State Mining Institute",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I65220239",
+   "key_display_name": "Karpagam Academy of Higher Education",
+   "count": 23
+  },
+  {
+   "key": "https://openalex.org/I172901346",
+   "key_display_name": "St Petersburg University",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I173089394",
+   "key_display_name": "ITMO University",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I4210090042",
+   "key_display_name": "Interstate Commission for Water Coordination of Central Asia",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I4210096915",
+   "key_display_name": "Sarsen Amanzholov East Kazakhstan University",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I4210117112",
+   "key_display_name": "South Kazakhstan Medical Academy",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I4210136192",
+   "key_display_name": "Institute of Volcanology and Seismology",
+   "count": 22
+  },
+  {
+   "key": "https://openalex.org/I4210097753",
+   "key_display_name": "Kazakh-American University",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/I4210118295",
+   "key_display_name": "Isparta University of Applied Sciences",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/I4210149746",
+   "key_display_name": "Kimyo International University in Tashkent",
+   "count": 21
+  },
+  {
+   "key": "https://openalex.org/I1294671590",
+   "key_display_name": "Centre National de la Recherche Scientifique",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/I200705115",
+   "key_display_name": "Academy of Sciences of the Republic of Tajikistan",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/I4210097036",
+   "key_display_name": "International Islamic Academy of Uzbekistan",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/I4210162028",
+   "key_display_name": "Ionosphere Institute",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/I4387152782",
+   "key_display_name": "Kazakh National Women's Teacher Training University",
+   "count": 20
+  },
+  {
+   "key": "https://openalex.org/I1330855593",
+   "key_display_name": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I4210137651",
+   "key_display_name": "Federal Research Center for Information and Computational Technologies",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I4210138851",
+   "key_display_name": "Jizzakh Polytechnic Institute",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I4210139342",
+   "key_display_name": "Navoi State University",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I4210155281",
+   "key_display_name": "Gemini Computers (United States)",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I90281761",
+   "key_display_name": "State University \"Kyiv Aviation Institute\"",
+   "count": 19
+  },
+  {
+   "key": "https://openalex.org/I189238007",
+   "key_display_name": "Taras Shevchenko National University of Kyiv",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I201726411",
+   "key_display_name": "United Arab Emirates University",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I244572783",
+   "key_display_name": "Symbiosis International University",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I4210103860",
+   "key_display_name": "Nukus State Pedagogical Institute named after Ajiniyaz",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I4210132536",
+   "key_display_name": "Kazakh Academy of Transport and Communications named after M.Tynyshpaev",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I4210162802",
+   "key_display_name": "Kazakh University of Technology and Business",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I869467088",
+   "key_display_name": "KIMEP University",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I887846188",
+   "key_display_name": "National Research Nuclear University MEPhI",
+   "count": 18
+  },
+  {
+   "key": "https://openalex.org/I110360157",
+   "key_display_name": "Lovely Professional University",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/I3130880545",
+   "key_display_name": "Tashkent Financial Institute",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/I4210092319",
+   "key_display_name": "Moscow Center For Continuous Mathematical Education",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/I106778892",
+   "key_display_name": "Princess Nourah bint Abdulrahman University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I106826634",
+   "key_display_name": "Jain University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I1323252656",
+   "key_display_name": "Information Technology University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I15517640",
+   "key_display_name": "Shri Venkateshwara University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I177537411",
+   "key_display_name": "Bauman Moscow State Technical University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I2800378187",
+   "key_display_name": "Inha University in Tashkent",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I3132999081",
+   "key_display_name": "Marwadi University",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I4210105409",
+   "key_display_name": "Institute of Geography",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I4210119247",
+   "key_display_name": "National Center of Space Research and Technology",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I80338172",
+   "key_display_name": "University of World Economy and Diplomacy",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/I101407740",
+   "key_display_name": "Chandigarh University",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I114972647",
+   "key_display_name": "University of Jordan",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I125989756",
+   "key_display_name": "Skolkovo Institute of Science and Technology",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I130343225",
+   "key_display_name": "Universiti Putra Malaysia",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I134694890",
+   "key_display_name": "Russian University of Transport",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I211738395",
+   "key_display_name": "Financial University",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I28420406",
+   "key_display_name": "Kurgan State University",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I4210101268",
+   "key_display_name": "Toraighyrov University",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I4210136103",
+   "key_display_name": "Tashkent Chemical-Technological Institute",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I4210154294",
+   "key_display_name": "Khalel Dosmukhamedov Atyrau University",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I4210159690",
+   "key_display_name": "Kostanay State University A Baitursynov",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/I172675005",
+   "key_display_name": "Nanyang Technological University",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/I3123046734",
+   "key_display_name": "Lorestan University",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/I4210121010",
+   "key_display_name": "Kazakh Institute of Oncology and Radiology",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/I4210136233",
+   "key_display_name": "Zhangir Khan West Kazakhstan Agrarian Technical University",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/I4210145467",
+   "key_display_name": "International University of Kyrgyzstan",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/I108403487",
+   "key_display_name": "Warsaw University of Technology",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I156216236",
+   "key_display_name": "Qassim University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I171241948",
+   "key_display_name": "Moscow Power Engineering Institute",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I219193219",
+   "key_display_name": "Purdue University West Lafayette",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I28777354",
+   "key_display_name": "Sejong University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4210091087",
+   "key_display_name": "Yessenov University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4210119570",
+   "key_display_name": "Kokshetau State University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4210128576",
+   "key_display_name": "Kazakhstan Medical University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4210137386",
+   "key_display_name": "Tashkent Islamic University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4210158296",
+   "key_display_name": "Academy of Civil Aviation",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I4403928190",
+   "key_display_name": "Astana International University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I49439280",
+   "key_display_name": "Kyrgyz National University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I91727514",
+   "key_display_name": "Novosibirsk State Technical University",
+   "count": 13
+  },
+  {
+   "key": "https://openalex.org/I125839683",
+   "key_display_name": "Beijing Institute of Technology",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I172183325",
+   "key_display_name": "Tajik National University",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I3040621137",
+   "key_display_name": "Alsalam University College",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I4210097274",
+   "key_display_name": "Tashkent Institute of Architecture and Civil Engineering",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I4210101093",
+   "key_display_name": "St. Joseph's Institute of Technology",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I4210139586",
+   "key_display_name": "Russian Quantum Center",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I4210164592",
+   "key_display_name": "Tashkent Medical Academy",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I45571689",
+   "key_display_name": "Moscow Aviation Institute",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/I149851306",
+   "key_display_name": "National Academy of Sciences of Ukraine",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I157725225",
+   "key_display_name": "University of Illinois Urbana-Champaign",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I17145004",
+   "key_display_name": "Northwestern Polytechnical University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I179331831",
+   "key_display_name": "Taif University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I184139950",
+   "key_display_name": "Moscow State Institute of International Relations",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I196355604",
+   "key_display_name": "National Research Tomsk State University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I201537933",
+   "key_display_name": "Tohoku University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I3132631111",
+   "key_display_name": "Technological University of Tajikistan",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I32699454",
+   "key_display_name": "Joint Institute for Nuclear Research",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4210109043",
+   "key_display_name": "Vladimir State University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4210132247",
+   "key_display_name": "National Nuclear Center of the Republic of Kazakhstan",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4210139387",
+   "key_display_name": "Taraz State Pedagogical University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4210142509",
+   "key_display_name": "Andijan Institute of Agricultural",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4210145891",
+   "key_display_name": "Kazakh German University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I4387930291",
+   "key_display_name": "Mukhametzhan Tynyshbayev ALT University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I59361560",
+   "key_display_name": "Instituto Politécnico Nacional",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I82571370",
+   "key_display_name": "GLA University",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I875944469",
+   "key_display_name": "Koneru Lakshmaiah Education Foundation",
+   "count": 11
+  },
+  {
+   "key": "https://openalex.org/I103031861",
+   "key_display_name": "Plekhanov Russian University of Economics",
+   "count": 10
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the paper and the archive."
+title: "Central Asia AI-related research output in OpenAlex, 2010-2026: data and code"
+authors:
+  - family-names: Olimov
+    given-names: Bekhzod
+    orcid: https://orcid.org/0000-0003-1090-0910
+    affiliation: Kokand University
+version: 1.0.0
+date-released: 2026-11-12
+license: MIT
+repository-code: https://github.com/bekhzod-olimov/centralasia-ai-openalex
+preferred-citation:
+  type: article
+  title: "Mapping Artificial Intelligence Research Output Across Central Asia (2010-2026): A Bibliometric Assessment of OpenAlex Data, Institutional Attribution, and Topic-Classification Drift"
+  authors:
+    - family-names: Olimov
+      given-names: Bekhzod
+  journal: Frontiers in Research Metrics and Analytics
+  year: 2026
+  notes: "manuscript 2022866, under review"

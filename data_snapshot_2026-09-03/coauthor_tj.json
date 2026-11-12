@@ -1,0 +1,266 @@
+{
+ "meta": {
+  "count": 116,
+  "db_response_time_ms": 21,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 41,
+  "x_query": {
+   "oql": "works where institution country is (tj)\n  and year >= (2010)\n  and year <= (2026)\n  and subfield is (\n    subfields/1702\n    or subfields/1703\n    or subfields/1707\n    or subfields/1712\n  )\ngroup by country",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "authorships.institutions.country_code",
+      "value": "tj"
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2010,
+      "operator": ">="
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2026,
+      "operator": "<="
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1702"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1703"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1707"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1712"
+       }
+      ]
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "authorships.countries"
+     }
+    ]
+   },
+   "url": "/works?filter=authorships.institutions.country_code:tj,publication_year:2010-2026,primary_topic.subfield.id:subfields%2F1702|subfields%2F1703|subfields%2F1707|subfields%2F1712&group_by=authorships.countries&per_page=200"
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/countries/TJ",
+   "key_display_name": "Tajikistan",
+   "count": 116
+  },
+  {
+   "key": "https://openalex.org/countries/RU",
+   "key_display_name": "Russia",
+   "count": 54
+  },
+  {
+   "key": "https://openalex.org/countries/CN",
+   "key_display_name": "China",
+   "count": 12
+  },
+  {
+   "key": "https://openalex.org/countries/GB",
+   "key_display_name": "United Kingdom",
+   "count": 8
+  },
+  {
+   "key": "https://openalex.org/countries/DE",
+   "key_display_name": "Germany",
+   "count": 7
+  },
+  {
+   "key": "https://openalex.org/countries/KZ",
+   "key_display_name": "Kazakhstan",
+   "count": 7
+  },
+  {
+   "key": "https://openalex.org/countries/US",
+   "key_display_name": "United States",
+   "count": 7
+  },
+  {
+   "key": "https://openalex.org/countries/IR",
+   "key_display_name": "Iran",
+   "count": 5
+  },
+  {
+   "key": "https://openalex.org/countries/ES",
+   "key_display_name": "Spain",
+   "count": 4
+  },
+  {
+   "key": "https://openalex.org/countries/AU",
+   "key_display_name": "Australia",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/CA",
+   "key_display_name": "Canada",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/IN",
+   "key_display_name": "India",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/IT",
+   "key_display_name": "Italy",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/PK",
+   "key_display_name": "Pakistan",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/PL",
+   "key_display_name": "Poland",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/UA",
+   "key_display_name": "Ukraine",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/countries/KE",
+   "key_display_name": "Kenya",
+   "count": 2
+  },
+  {
+   "key": "https://openalex.org/countries/RO",
+   "key_display_name": "Romania",
+   "count": 2
+  },
+  {
+   "key": "https://openalex.org/countries/TW",
+   "key_display_name": "Taiwan",
+   "count": 2
+  },
+  {
+   "key": "https://openalex.org/countries/ZA",
+   "key_display_name": "South Africa",
+   "count": 2
+  },
+  {
+   "key": "https://openalex.org/countries/AT",
+   "key_display_name": "Austria",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/AZ",
+   "key_display_name": "Azerbaijan",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/BD",
+   "key_display_name": "Bangladesh",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/BR",
+   "key_display_name": "Brazil",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/CH",
+   "key_display_name": "Switzerland",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/FI",
+   "key_display_name": "Finland",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/FR",
+   "key_display_name": "France",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/HK",
+   "key_display_name": "Hong Kong",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/HR",
+   "key_display_name": "Croatia",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/HU",
+   "key_display_name": "Hungary",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/ID",
+   "key_display_name": "Indonesia",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/JP",
+   "key_display_name": "Japan",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/LK",
+   "key_display_name": "Sri Lanka",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/MY",
+   "key_display_name": "Malaysia",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/NG",
+   "key_display_name": "Nigeria",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/NZ",
+   "key_display_name": "New Zealand",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/PH",
+   "key_display_name": "Philippines",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/RS",
+   "key_display_name": "Serbia",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/SG",
+   "key_display_name": "Singapore",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/UZ",
+   "key_display_name": "Uzbekistan",
+   "count": 1
+  },
+  {
+   "key": "https://openalex.org/countries/ZW",
+   "key_display_name": "Zimbabwe",
+   "count": 1
+  }
+ ]
+}

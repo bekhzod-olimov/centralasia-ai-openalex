@@ -1,0 +1,126 @@
+topic_id,openalex_label,subfield,works,share_pct,global_works_same_subfields,global_share_pct,activity_index
+T10181,Natural Language Processing Techniques,Artificial Intelligence,924,9.87,102069,2.32,4.26
+T13904,Artificial Intelligence Applications,Artificial Intelligence,483,5.16,55280,1.256,4.11
+T10201,Speech Recognition and Synthesis,Artificial Intelligence,383,4.09,74322,1.689,2.42
+T10028,Topic Modeling,Artificial Intelligence,382,4.08,142029,3.228,1.26
+T10036,Advanced Neural Network Applications,Computer Vision and Pattern Recognition,374,4.0,181337,4.121,0.97
+T10883,Ethics and Social Impacts of AI,Artificial Intelligence,309,3.3,115154,2.617,1.26
+T10888,Augmented Reality Applications,Computer Vision and Pattern Recognition,292,3.12,63167,1.436,2.17
+T11902,Intelligent Tutoring Systems and Adaptive Learning,Artificial Intelligence,268,2.86,32490,0.738,3.88
+T10951,Cryptographic Implementations and Security,Artificial Intelligence,262,2.8,46939,1.067,2.62
+T13681,Engineering and Information Technology,Software,248,2.65,115237,2.619,1.01
+T10664,Sentiment Analysis and Opinion Mining,Artificial Intelligence,227,2.43,89004,2.023,1.2
+T10820,Fuzzy Logic and Control Systems,Artificial Intelligence,196,2.09,30040,0.683,3.07
+T10862,AI in cancer detection,Artificial Intelligence,189,2.02,71881,1.634,1.24
+T10320,Neural Networks and Applications,Artificial Intelligence,165,1.76,52946,1.203,1.47
+T10689,Remote-Sensing Image Classification,Computer Vision and Pattern Recognition,156,1.67,83851,1.906,0.87
+T10215,Semantic Web and Ontologies,Artificial Intelligence,138,1.47,76109,1.73,0.85
+T10682,Quantum Computing Algorithms and Architecture,Artificial Intelligence,137,1.46,73048,1.66,0.88
+T10667,Emotion and Mood Recognition,Artificial Intelligence,134,1.43,63243,1.437,1.0
+T10052,Medical Image Segmentation Techniques,Computer Vision and Pattern Recognition,130,1.39,108004,2.455,0.57
+T10601,Handwritten Text Recognition Techniques,Computer Vision and Pattern Recognition,128,1.37,50275,1.143,1.2
+T10792,Matrix Theory and Algorithms,Computational Theory and Mathematics,125,1.34,51264,1.165,1.15
+T11448,Face recognition and analysis,Computer Vision and Pattern Recognition,122,1.3,45635,1.037,1.26
+T10100,Metaheuristic Optimization Algorithms Research,Artificial Intelligence,119,1.27,101677,2.311,0.55
+T10764,Privacy-Preserving Technologies in Data,Artificial Intelligence,115,1.23,81513,1.853,0.66
+T12002,"Computability, Logic, AI Algorithms",Computational Theory and Mathematics,113,1.21,13484,0.306,3.94
+T10812,Human Pose and Action Recognition,Computer Vision and Pattern Recognition,96,1.03,40634,0.923,1.11
+T11550,Text and Document Classification Technologies,Artificial Intelligence,94,1.0,25847,0.587,1.71
+T10637,Advanced Clustering Algorithms Research,Artificial Intelligence,87,0.93,49230,1.119,0.83
+T12026,Explainable Artificial Intelligence (XAI),Artificial Intelligence,86,0.92,42931,0.976,0.94
+T11727,Advanced Algebra and Logic,Computational Theory and Mathematics,85,0.91,29020,0.66,1.38
+T11652,Imbalanced Data Classification Techniques,Artificial Intelligence,82,0.88,24475,0.556,1.58
+T12380,Authorship Attribution and Profiling,Artificial Intelligence,81,0.87,11451,0.26,3.33
+T10331,Video Surveillance and Tracking Methods,Computer Vision and Pattern Recognition,81,0.87,78810,1.791,0.48
+T12262,Hate Speech and Cyberbullying Detection,Artificial Intelligence,80,0.85,19078,0.434,1.97
+T12702,Brain Tumor Detection and Classification,Computer Vision and Pattern Recognition,74,0.79,22344,0.508,1.56
+T13083,Advanced Text Analysis Techniques,Artificial Intelligence,70,0.75,15688,0.357,2.1
+T11241,Advanced Malware Detection Techniques,Software,70,0.75,30536,0.694,1.08
+T13018,Seismology and Earthquake Studies,Artificial Intelligence,69,0.74,12187,0.277,2.66
+T11689,Adversarial Robustness in Machine Learning,Artificial Intelligence,66,0.71,50847,1.156,0.61
+T13851,"Law, AI, and Intellectual Property",Artificial Intelligence,61,0.65,9854,0.224,2.91
+T10688,Image and Signal Denoising Methods,Computer Vision and Pattern Recognition,60,0.64,45423,1.032,0.62
+T10388,Advanced Steganography and Watermarking Techniques,Computer Vision and Pattern Recognition,58,0.62,54607,1.241,0.5
+T10462,Reinforcement Learning in Robotics,Artificial Intelligence,56,0.6,69416,1.578,0.38
+T10126,"Logic, programming, and type systems",Software,54,0.58,65645,1.492,0.39
+T10824,Image Retrieval and Classification Techniques,Computer Vision and Pattern Recognition,52,0.56,39774,0.904,0.61
+T13650,Computational Physics and Python Applications,Software,52,0.56,10171,0.231,2.4
+T10057,Face and Expression Recognition,Computer Vision and Pattern Recognition,51,0.54,30118,0.684,0.8
+T10720,Complexity and Algorithms in Graphs,Computational Theory and Mathematics,51,0.54,49494,1.125,0.48
+T11019,Image Enhancement Techniques,Computer Vision and Pattern Recognition,50,0.53,39175,0.89,0.6
+T10444,Context-Aware Activity Recognition Systems,Computer Vision and Pattern Recognition,49,0.52,54533,1.239,0.42
+T11512,Anomaly Detection Techniques and Applications,Artificial Intelligence,49,0.52,29426,0.669,0.78
+T12357,Digital Media Forensic Detection,Computer Vision and Pattern Recognition,47,0.5,22166,0.504,1.0
+T10775,Generative Adversarial Networks and Image Synthesis,Computer Vision and Pattern Recognition,47,0.5,52084,1.184,0.42
+T10901,Advanced Data Compression Techniques,Computer Vision and Pattern Recognition,46,0.49,28030,0.637,0.77
+T12391,Artificial Immune Systems Applications,Artificial Intelligence,46,0.49,5642,0.128,3.83
+T13702,Machine Learning in Healthcare,Artificial Intelligence,45,0.48,21988,0.5,0.96
+T10191,Robotics and Sensor-Based Localization,Computer Vision and Pattern Recognition,42,0.45,57681,1.311,0.34
+T11714,Multimodal Machine Learning Applications,Computer Vision and Pattern Recognition,41,0.44,59366,1.349,0.32
+T12983,Satellite Image Processing and Photogrammetry,Computer Vision and Pattern Recognition,39,0.42,19780,0.45,0.93
+T10545,Optimization and Variational Analysis,Computational Theory and Mathematics,37,0.4,36362,0.826,0.48
+T13674,Computer Science and Engineering,Artificial Intelligence,35,0.37,8345,0.19,1.97
+T12535,Machine Learning and Data Classification,Artificial Intelligence,35,0.37,20485,0.466,0.8
+T11105,Advanced Image Processing Techniques,Computer Vision and Pattern Recognition,33,0.35,33303,0.757,0.47
+T10743,Software Testing and Debugging Techniques,Software,32,0.34,62452,1.419,0.24
+T11435,Polynomial and algebraic computation,Computational Theory and Mathematics,31,0.33,13378,0.304,1.09
+T12031,Speech and dialogue systems,Artificial Intelligence,31,0.33,29427,0.669,0.5
+T11010,"Logic, Reasoning, and Knowledge",Artificial Intelligence,29,0.31,40550,0.922,0.34
+T10456,Multi-Agent Systems and Negotiation,Artificial Intelligence,29,0.31,30049,0.683,0.45
+T13559,Edcuational Technology Systems,Artificial Intelligence,29,0.31,12975,0.295,1.05
+T11598,Internet Traffic Analysis and Secure E-voting,Artificial Intelligence,28,0.3,18875,0.429,0.7
+T11307,Domain Adaptation and Few-Shot Learning,Artificial Intelligence,28,0.3,48411,1.1,0.27
+T11697,Numerical Methods and Algorithms,Computational Theory and Mathematics,27,0.29,11239,0.255,1.13
+T11567,semigroups and automata theory,Computational Theory and Mathematics,26,0.28,25774,0.586,0.47
+T11273,Advanced Graph Neural Networks,Artificial Intelligence,26,0.28,31750,0.722,0.39
+T10142,Formal Methods in Verification,Computational Theory and Mathematics,25,0.27,42356,0.963,0.28
+T10638,Optical measurement and interference techniques,Computer Vision and Pattern Recognition,25,0.27,49775,1.131,0.24
+T11017,Chaos-based Image/Signal Encryption,Computer Vision and Pattern Recognition,25,0.27,25944,0.59,0.45
+T10627,Advanced Image and Video Retrieval Techniques,Computer Vision and Pattern Recognition,22,0.24,34136,0.776,0.3
+T12162,Cellular Automata and Applications,Computational Theory and Mathematics,22,0.24,9157,0.208,1.13
+T12874,Digital Imaging for Blood Diseases,Computer Vision and Pattern Recognition,22,0.24,9425,0.214,1.1
+T11125,Petri Nets in System Modeling,Computational Theory and Mathematics,21,0.22,16368,0.372,0.6
+T13898,Diverse Interdisciplinary Research Studies,Artificial Intelligence,21,0.22,3184,0.072,3.1
+T11165,Image and Video Quality Assessment,Computer Vision and Pattern Recognition,21,0.22,25372,0.577,0.39
+T11612,Stochastic Gradient Optimization Techniques,Artificial Intelligence,21,0.22,20741,0.471,0.48
+T13734,Advanced Computational Techniques and Applications,Artificial Intelligence,21,0.22,4160,0.095,2.37
+T12549,Image and Object Detection Techniques,Computer Vision and Pattern Recognition,20,0.21,11274,0.256,0.83
+T10848,Advanced Multi-Objective Optimization Algorithms,Computational Theory and Mathematics,20,0.21,29524,0.671,0.32
+T11450,Model-Driven Software Engineering Techniques,Software,20,0.21,29863,0.679,0.31
+T12536,Topological and Geometric Data Analysis,Computational Theory and Mathematics,19,0.2,12889,0.293,0.69
+T12923,Digital Image Processing Techniques,Computer Vision and Pattern Recognition,19,0.2,6324,0.144,1.41
+T13062,Cognitive Computing and Networks,Artificial Intelligence,18,0.19,6809,0.155,1.24
+T11574,Artificial Intelligence in Games,Artificial Intelligence,18,0.19,27230,0.619,0.31
+T10711,Target Tracking and Data Fusion in Sensor Networks,Artificial Intelligence,17,0.18,36897,0.839,0.22
+T12292,Graph Theory and Algorithms,Computational Theory and Mathematics,16,0.17,17654,0.401,0.43
+T12707,Vehicle License Plate Recognition,Computer Vision and Pattern Recognition,16,0.17,8397,0.191,0.9
+T10374,Advanced Graph Theory Research,Computational Theory and Mathematics,15,0.16,49409,1.123,0.14
+T11303,Bayesian Modeling and Causal Inference,Artificial Intelligence,15,0.16,23462,0.533,0.3
+T10639,Advanced Software Engineering Methodologies,Software,14,0.15,35897,0.816,0.18
+T12131,Wireless Signal Modulation Classification,Artificial Intelligence,14,0.15,11531,0.262,0.57
+T13182,Quantum-Dot Cellular Automata,Computational Theory and Mathematics,13,0.14,5299,0.12,1.15
+T13197,Spreadsheets and End-User Computing,Software,13,0.14,7373,0.168,0.83
+T12761,Data Stream Mining Techniques,Artificial Intelligence,13,0.14,7349,0.167,0.83
+T10531,Advanced Vision and Imaging,Computer Vision and Pattern Recognition,12,0.13,45077,1.024,0.13
+T11975,Evolutionary Algorithms and Applications,Artificial Intelligence,11,0.12,17112,0.389,0.3
+T11063,Rough Sets and Fuzzy Logic,Computational Theory and Mathematics,10,0.11,19007,0.432,0.25
+T13935,Mathematical Control Systems and Analysis,Artificial Intelligence,10,0.11,2161,0.049,2.18
+T12423,Software Reliability and Analysis Research,Software,10,0.11,5532,0.126,0.85
+T12072,Machine Learning and Algorithms,Artificial Intelligence,10,0.11,15752,0.358,0.3
+T12805,Cognitive Science and Mapping,Artificial Intelligence,9,0.1,3454,0.078,1.23
+T12611,Neural Networks and Reservoir Computing,Artificial Intelligence,7,0.07,11796,0.268,0.28
+T10906,AI-based Problem Solving and Planning,Artificial Intelligence,7,0.07,20499,0.466,0.16
+T14381,"Psychiatry, Mental Health, Neuroscience",Artificial Intelligence,6,0.06,10267,0.233,0.27
+T12676,Machine Learning and ELM,Artificial Intelligence,6,0.06,8092,0.184,0.35
+T14339,Image Processing and 3D Reconstruction,Computer Vision and Pattern Recognition,6,0.06,4281,0.097,0.66
+T13282,Automated Road and Building Extraction,Computer Vision and Pattern Recognition,5,0.05,10886,0.247,0.22
+T14319,Currency Recognition and Detection,Computer Vision and Pattern Recognition,5,0.05,2174,0.049,1.08
+T11901,Bayesian Methods and Mixture Models,Artificial Intelligence,4,0.04,14321,0.325,0.13
+T11605,Visual Attention and Saliency Detection,Computer Vision and Pattern Recognition,4,0.04,14765,0.336,0.13
+T12814,Gaussian Processes and Bayesian Inference,Artificial Intelligence,4,0.04,11499,0.261,0.16
+T11596,Constraint Satisfaction and Optimization,Artificial Intelligence,3,0.03,11627,0.264,0.12
+T14351,Statistical and Computational Modeling,Artificial Intelligence,3,0.03,281,0.006,5.02
+T11439,Video Analysis and Summarization,Computer Vision and Pattern Recognition,3,0.03,12822,0.291,0.11
+T13523,"Mathematics, Computing, and Information Processing",Computational Theory and Mathematics,2,0.02,2435,0.055,0.39
+T12541,Graph Labeling and Dimension Problems,Computational Theory and Mathematics,2,0.02,14726,0.335,0.06
+T13579,Image and Video Stabilization,Computer Vision and Pattern Recognition,1,0.01,2424,0.055,0.19

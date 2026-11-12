@@ -1,0 +1,11 @@
+{
+ "snapshot_date": "2026-11-12",
+ "select": "id,doi,title,publication_year,publication_date,type,language,primary_location,open_access,authorships,institutions_distinct_count,countries_distinct_count,cited_by_count,fwci,citation_normalized_percentile,primary_topic,topics,indexed_in,is_retracted,is_paratext,referenced_works_count,created_date,updated_date",
+ "paging": "page-based, per year",
+ "primary_filter": "authorships.institutions.country_code:uz|kz|kg|tj|tm,primary_topic.subfield.id:subfields/1702|subfields/1707|subfields/1703|subfields/1712,publication_year:2010-2026",
+ "primary_unique": 9358,
+ "primary_expected": 9358,
+ "anytopic_filter": "authorships.institutions.country_code:uz|kz|kg|tj|tm,topics.subfield.id:subfields/1702|subfields/1707|subfields/1703|subfields/1712,publication_year:2010-2026",
+ "anytopic_unique": 20036,
+ "anytopic_expected": 20036
+}

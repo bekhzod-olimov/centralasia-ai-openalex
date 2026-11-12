@@ -1,0 +1,167 @@
+{
+ "meta": {
+  "count": 7137,
+  "db_response_time_ms": 4,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 17,
+  "x_query": {
+   "oql": "works where year >= (2010)\n  and year <= (2026)\n  and institution country is (kg or kz or tj or tm or uz)\n  and subfield is (\n    subfields/1702\n    or subfields/1703\n    or subfields/1707\n    or subfields/1712\n  )\ngroup by year",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "publication_year",
+      "value": 2010,
+      "operator": ">="
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2026,
+      "operator": "<="
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kg"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kz"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tj"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tm"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "uz"
+       }
+      ]
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1702"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1703"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1707"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1712"
+       }
+      ]
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "publication_year"
+     }
+    ]
+   },
+   "url": "/works?filter=publication_year:2010-2026,authorships.institutions.country_code:kg|kz|tj|tm|uz,primary_topic.subfield.id:subfields%2F1702|subfields%2F1703|subfields%2F1707|subfields%2F1712&group_by=publication_year&per_page=200"
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "2025",
+   "key_display_name": "2025",
+   "count": 1639
+  },
+  {
+   "key": "2026",
+   "key_display_name": "2026",
+   "count": 1599
+  },
+  {
+   "key": "2024",
+   "key_display_name": "2024",
+   "count": 911
+  },
+  {
+   "key": "2023",
+   "key_display_name": "2023",
+   "count": 631
+  },
+  {
+   "key": "2022",
+   "key_display_name": "2022",
+   "count": 451
+  },
+  {
+   "key": "2021",
+   "key_display_name": "2021",
+   "count": 441
+  },
+  {
+   "key": "2020",
+   "key_display_name": "2020",
+   "count": 315
+  },
+  {
+   "key": "2019",
+   "key_display_name": "2019",
+   "count": 268
+  },
+  {
+   "key": "2018",
+   "key_display_name": "2018",
+   "count": 178
+  },
+  {
+   "key": "2017",
+   "key_display_name": "2017",
+   "count": 158
+  },
+  {
+   "key": "2016",
+   "key_display_name": "2016",
+   "count": 138
+  },
+  {
+   "key": "2015",
+   "key_display_name": "2015",
+   "count": 113
+  },
+  {
+   "key": "2014",
+   "key_display_name": "2014",
+   "count": 103
+  },
+  {
+   "key": "2013",
+   "key_display_name": "2013",
+   "count": 75
+  },
+  {
+   "key": "2012",
+   "key_display_name": "2012",
+   "count": 46
+  },
+  {
+   "key": "2011",
+   "key_display_name": "2011",
+   "count": 36
+  },
+  {
+   "key": "2010",
+   "key_display_name": "2010",
+   "count": 35
+  }
+ ]
+}

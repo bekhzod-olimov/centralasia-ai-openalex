@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "count": 7248,
+  "db_response_time_ms": 110,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 6,
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "closed",
+   "key_display_name": "closed",
+   "count": 3356
+  },
+  {
+   "key": "diamond",
+   "key_display_name": "diamond",
+   "count": 1189
+  },
+  {
+   "key": "green",
+   "key_display_name": "green",
+   "count": 1055
+  },
+  {
+   "key": "gold",
+   "key_display_name": "gold",
+   "count": 817
+  },
+  {
+   "key": "bronze",
+   "key_display_name": "bronze",
+   "count": 428
+  },
+  {
+   "key": "hybrid",
+   "key_display_name": "hybrid",
+   "count": 403
+  }
+ ]
+}

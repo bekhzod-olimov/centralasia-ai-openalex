@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "count": 7137,
+  "db_response_time_ms": 23,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 6,
+  "x_query": {
+   "oql": "works where year >= (2010)\n  and year <= (2026)\n  and institution country is (kg or kz or tj or tm or uz)\n  and subfield is (\n    subfields/1702\n    or subfields/1703\n    or subfields/1707\n    or subfields/1712\n  )\ngroup by open access status",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "publication_year",
+      "value": 2010,
+      "operator": ">="
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2026,
+      "operator": "<="
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kg"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "kz"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tj"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "tm"
+       },
+       {
+        "column_id": "authorships.institutions.country_code",
+        "value": "uz"
+       }
+      ]
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1702"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1703"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1707"
+       },
+       {
+        "column_id": "primary_topic.subfield.id",
+        "value": "subfields/1712"
+       }
+      ]
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "open_access.oa_status"
+     }
+    ]
+   },
+   "url": "/works?filter=publication_year:2010-2026,authorships.institutions.country_code:kg|kz|tj|tm|uz,primary_topic.subfield.id:subfields%2F1702|subfields%2F1703|subfields%2F1707|subfields%2F1712&group_by=open_access.oa_status&per_page=200"
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "closed",
+   "key_display_name": "closed",
+   "count": 2845
+  },
+  {
+   "key": "diamond",
+   "key_display_name": "diamond",
+   "count": 1260
+  },
+  {
+   "key": "green",
+   "key_display_name": "green",
+   "count": 1207
+  },
+  {
+   "key": "gold",
+   "key_display_name": "gold",
+   "count": 940
+  },
+  {
+   "key": "hybrid",
+   "key_display_name": "hybrid",
+   "count": 493
+  },
+  {
+   "key": "bronze",
+   "key_display_name": "bronze",
+   "count": 392
+  }
+ ]
+}
