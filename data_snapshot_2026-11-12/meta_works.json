@@ -7,5 +7,28 @@
  "primary_expected": 9358,
  "anytopic_filter": "authorships.institutions.country_code:uz|kz|kg|tj|tm,topics.subfield.id:subfields/1702|subfields/1707|subfields/1703|subfields/1712,publication_year:2010-2026",
  "anytopic_unique": 20036,
- "anytopic_expected": 20036
+ "anytopic_expected": 20036,
+ "filter_form_check": {
+  "date": "2026-11-12",
+  "note": "The subfield filter was issued with and without the subfields/ prefix, back to back, twice, in an evening re-check after the pull. Consecutive live counts fluctuate by one or two records as the database updates; the two forms returned identical counts (9,359) in the second back-to-back pair.",
+  "counts": [
+   [
+    "subfields/ prefix",
+    9358
+   ],
+   [
+    "numeric",
+    9357
+   ],
+   [
+    "subfields/ prefix",
+    9359
+   ],
+   [
+    "numeric",
+    9359
+   ]
+  ],
+  "count_at_pull": 9358
+ }
 }

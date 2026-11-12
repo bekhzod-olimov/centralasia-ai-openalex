@@ -1,0 +1,6 @@
+{
+ "query": "authorships.institutions.country_code:tm,publication_year:2010-2026",
+ "count": 870,
+ "retrieved": "2026-11-12",
+ "note": "Turkmenistan-affiliated works, all subjects; the September 2026 value is in data/tm_all_subjects.json"
+}
