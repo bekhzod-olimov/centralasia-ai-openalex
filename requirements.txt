@@ -1,0 +1,6 @@
+# Exact versions used for every number and figure in the paper (Python 3.12.3, Ubuntu 24.04).
+numpy==2.2.6
+scipy==1.13.1
+statsmodels==0.15.0
+matplotlib==3.9.2
+pillow==12.3.0

@@ -2,15 +2,15 @@
 """Work-level analysis of the Central Asia AI-related corpus (OpenAlex snapshot 2026-11-12).
 
 Reads  ../data_snapshot_2026-11-12/works_primary.jsonl  (main corpus)
-       ../data_snapshot_2026-11-12/works_anytopic.jsonl (recall variant)
-       ../data/                                          (September 2026 aggregate snapshot)
+       ../data_snapshot_2026-11-12/works_anytopic.jsonl (broad definition; coverage variant)
+       ../data_snapshot_2026-09-03/                      (September 2026 aggregate snapshot)
        ../data_snapshot_2026-05-30/                      (May 2026 aggregate snapshot)
-Writes out/results.json and out/*.csv
+Writes ../results/results.json and ../results/*.csv
 
 Every number quoted in the revised manuscript is produced here.
 """
 from __future__ import annotations
-import csv, json, math, random, sys
+import csv, json, math, os, random, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -19,9 +19,9 @@ import numpy as np
 HERE = Path(__file__).parent
 ROOT = HERE.parent
 SNAP = ROOT / "data_snapshot_2026-11-12"
-SEPT = ROOT / "data"
+SEPT = next((p for p in (ROOT / "data_snapshot_2026-09-03", ROOT / "data") if p.exists()), ROOT / "data_snapshot_2026-09-03")
 MAY = ROOT / "data_snapshot_2026-05-30"
-OUT = HERE / "out"
+OUT = Path(os.environ.get("CA_OUT", ROOT / "results"))  # override with CA_OUT=<dir>
 OUT.mkdir(exist_ok=True)
 
 CA = ["UZ", "KZ", "KG", "TJ", "TM"]
@@ -42,6 +42,11 @@ ASIA_NON_OECD = set(("AF BH BD BT BN KH CN CY HK IN ID IR IQ JO KW LA LB MO MY M
 
 def sid(x):
     return x.rsplit("/", 1)[-1] if x else x
+
+
+def jload(p):
+    with open(p, encoding="utf-8") as f:
+        return json.load(f)
 
 
 def load_jsonl(p):
@@ -112,16 +117,76 @@ def growth_fits(series: dict[int, int], y0=2010, y1=LAST_FULL_YEAR):
     r, se = poi.params[1], poi.bse[1]
     out["poisson"] = {"r": r, "ci": [r - 1.96 * se, r + 1.96 * se], "doubling": math.log(2) / r,
                       "deviance_df": poi.deviance / poi.df_resid}
-    # Negative binomial (NB2) with alpha estimated by ML
-    try:
-        from statsmodels.discrete.discrete_model import NegativeBinomial
-        nb = NegativeBinomial(n, Xa).fit(disp=0, maxiter=500)
-        r, se = nb.params[1], nb.bse[1]
-        out["nb2"] = {"r": r, "ci": [r - 1.96 * se, r + 1.96 * se], "doubling": math.log(2) / r,
-                      "alpha": float(nb.params[-1])}
-    except Exception as e:  # noqa
-        out["nb2"] = {"error": str(e)}
+    # Negative binomial (NB2), alpha estimated by maximum likelihood, with explicit convergence checks.
+    out["nb2"] = nb2_fit(n, Xa, poi)
     return out
+
+
+def nb2_fit(n, Xa, poi):
+    """NB2 maximum-likelihood fit with convergence verification.
+
+    Revision 2 (Nov 2026): the first revision called NegativeBinomial(...).fit(disp=0, maxiter=500) from the
+    default start values and did not check mle_retvals['converged']. For the Uzbek series the optimizer stopped
+    at a non-converged point with alpha ~ 1e-4, i.e. it returned the Poisson slope (47.3 %/yr) with a Poisson
+    interval. The fit is now started from the Poisson coefficients and a method-of-moments alpha, tried with
+    three optimizers, accepted only if the optimizer reports convergence and the Hessian inverts, and cross-checked
+    against a profile likelihood over alpha. When the profile maximum sits at the alpha -> 0 boundary the NB2 model
+    reduces to Poisson and the Poisson estimate is reported with that flag.
+    """
+    import warnings
+    import statsmodels.api as sm
+    from statsmodels.discrete.discrete_model import NegativeBinomial
+    disp = float(poi.pearson_chi2 / poi.df_resid)
+    a0 = max((disp - 1.0) / float(np.mean(n)), 1e-3)
+    sp = np.r_[poi.params, a0]
+    best = None
+    for meth in ("newton", "bfgs", "nm"):
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                f = NegativeBinomial(n, Xa).fit(start_params=sp, method=meth, disp=0, maxiter=5000)
+                if meth == "nm":
+                    f = NegativeBinomial(n, Xa).fit(start_params=f.params, method="bfgs", disp=0, maxiter=5000)
+            conv = bool(f.mle_retvals.get("converged", False)) and bool(np.all(np.isfinite(f.bse)))
+            if conv and (best is None or f.llf > best.llf + 1e-6):
+                best = f
+        except Exception:  # noqa
+            continue
+    # profile likelihood over alpha (GLM with alpha fixed), as an independent check and fallback
+    grid = np.logspace(-4, 1, 400)
+    ll = []
+    for a in grid:
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                ll.append(sm.GLM(n, Xa, family=sm.families.NegativeBinomial(alpha=a)).fit().llf)
+        except Exception:  # noqa
+            ll.append(-np.inf)
+    ll = np.array(ll)
+    ia = int(np.argmax(ll))
+    a_prof = float(grid[ia])
+    boundary = ia == 0
+    if boundary:
+        r, se = float(poi.params[1]), float(poi.bse[1])
+        res = {"r": r, "ci": [r - 1.96 * se, r + 1.96 * se], "doubling": math.log(2) / r, "alpha": 0.0,
+               "converged": True, "method": "poisson-limit",
+               "note": "profile likelihood maximal at alpha -> 0; NB2 reduces to Poisson", "llf": float(poi.llf)}
+    elif best is not None and abs(float(best.llf) - float(ll[ia])) < 0.05:
+        r, se = float(best.params[1]), float(best.bse[1])
+        res = {"r": r, "ci": [r - 1.96 * se, r + 1.96 * se], "doubling": math.log(2) / r,
+               "alpha": float(best.params[-1]), "converged": True, "method": best.mle_settings.get("optimizer", "ml"),
+               "llf": float(best.llf), "iterations": int(best.mle_retvals.get("iterations", -1))}
+    else:
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            g = sm.GLM(n, Xa, family=sm.families.NegativeBinomial(alpha=a_prof)).fit()
+        r, se = float(g.params[1]), float(g.bse[1])
+        res = {"r": r, "ci": [r - 1.96 * se, r + 1.96 * se], "doubling": math.log(2) / r, "alpha": a_prof,
+               "converged": True, "method": "profile-likelihood", "llf": float(g.llf),
+               "note": "full-ML optimizers did not converge; estimate from profile likelihood over alpha"}
+    res["poisson_dispersion"] = disp
+    res["profile_llf"] = float(ll[ia])
+    return res
 
 
 # ----------------------------------------------------------------------------- concentration
@@ -266,7 +331,7 @@ def main():
 
     # ---- topics: counts, ids, activity index vs global
     tc = Counter((r["topic_id"], r["topic"], r["subfield"]) for r in W)
-    glob = json.load(open(SNAP / "global_topics.json"))
+    glob = jload((SNAP / "global_topics.json"))
     gcount = {sid(g["key"]): g["count"] for g in glob["group_by"]}
     gtot = sum(gcount.values())
     R["global_topics_total"] = gtot
@@ -341,6 +406,12 @@ def main():
     # ---- citations / FWCI, full corpus
     def fwci_stats(rows):
         x = [r["fwci"] for r in rows if r["fwci"] is not None]
+        if not rows or not x:  # no works (or no FWCI values): report counts only, no statistics
+            return {"n": len(rows), "n_fwci": len(x), "mean": None, "mean_ci": [None, None], "median": None,
+                    "q1": None, "q3": None, "share_ge1": None,
+                    "share_zero_cites": (sum(1 for r in rows if r["cites"] == 0) / len(rows)) if rows else None,
+                    "share_top10": (sum(1 for r in rows if r["top10"]) / len(rows)) if rows else None,
+                    "mean_cites": None, "median_cites": None}
         m, lo, hi = boot_mean(x)
         xs = np.array(x) if x else np.array([np.nan])
         return {"n": len(rows), "n_fwci": len(x), "mean": m, "mean_ci": [lo, hi], "median": float(np.median(xs)),
@@ -363,7 +434,7 @@ def main():
                    "top3": [(r["title"], r["year"], r["cites"], sorted(r["ca"]), r["doi"]) for r in top200[:3]],
                    "by_country_fwci": {cc: fwci_stats([r for r in top200 if cc in r["ca"]]) for cc in CA}}
 
-    # ---- recall variant
+    # ---- broad definition (coverage of the main definition relative to it; not recall)
     anyt = {sid(w["id"]): parse(w) for w in load_jsonl(SNAP / "works_anytopic.jsonl")}
     extra = [r for i, r in anyt.items() if i not in ids]
     R["anytopic"] = {"N": len(anyt), "extra": len(extra), "primary_in_anytopic": sum(1 for i in ids if i in anyt),
@@ -401,7 +472,7 @@ def main():
 
     # ---- snapshot comparison (May aggregate, Sept aggregate, Nov work-level)
     def yearly(p):
-        d = json.load(open(p))
+        d = jload((p))
         g = d["group_by"] if "group_by" in d else d["years"]
         return {int(x["key"]): x["count"] for x in g}
     snap = {"may": {}, "sept": {}, "nov": {}}
@@ -415,21 +486,58 @@ def main():
         snap["may"][cc] = yearly(f) if f.exists() else None
         snap["nov"][cc] = {int(k): int(v) for k, v in R["country_year_full"][cc].items()}
     R["snapshots"] = snap
-    # Sept topic list -> subfield distribution via topic->subfield map from Nov records
-    t2s = {r["topic_id"]: r["subfield"] for r in W}
-    for r in anyt.values():
+    # ---- topic hierarchy: the subfield placement embedded in the 12 Nov records (post-revision) versus the
+    # hierarchy in force under classifier v1 (OpenAlex repository file topics.json, committed 6 Oct 2026, which the
+    # OpenAlex help pages state was unchanged by the October classifier replacement) and the live API on 24 Nov 2026.
+    # OpenAlex renamed 56 topics and moved 972 topics between subfields in November 2026 (help.openalex.org/data/topics).
+    emb = {}
+    for r in list(W) + list(anyt.values()):
+        emb.setdefault(r["topic_id"], (r["topic"], r["subfield"]))
         for tid, sf in r["topics"]:
-            t2s.setdefault(tid, sf)
-    st = json.load(open(SEPT / "top_topics.json"))["group_by"]
-    sept_sf, unmapped = Counter(), 0
+            emb.setdefault(tid, (None, sf))
+    HIER = ROOT / "reference_topic_hierarchy"
+    v1 = {sid(t["id"]): (t["display_name"], sid(t["subfield"]["id"])) for t in jload(HIER / "topics_v1_hierarchy_2026-10-06.json")}
+    with open(HIER / "topics_live_2026-11-24.csv", encoding="utf-8") as f:
+        live = {r["topic_id"]: (r["topic_name"], r["subfield_id"]) for r in csv.DictReader(f)}
+    four = set(SUBF)
+    differs_live = [t for t in emb if t in live and emb[t][1] != live[t][1]]
+    differs_v1 = [t for t in emb if t in v1 and emb[t][1] != v1[t][1]]
+    moved_in = sorted(t for t in v1 if v1[t][1] not in four and live[t][1] in four)
+    moved_out = sorted(t for t in v1 if v1[t][1] in four and live[t][1] not in four)
+    nov_in = Counter(r["topic_id"] for r in W if r["topic_id"] in moved_in)
+    nov_out = Counter(r["topic_id"] for r in W if r["topic_id"] in moved_out)
+    st = jload((SEPT / "top_topics.json"))["group_by"]
+    sept_out, sept_outside_v1, sept_unmapped = Counter(), Counter(), 0
     for g in st:
-        sf = t2s.get(sid(g["key"]))
-        if sf:
-            sept_sf[SUBF.get(sf, sf)] += g["count"]
-        else:
-            unmapped += g["count"]
-    R["sept_subfield_est"] = {"mapped": dict(sept_sf), "unmapped_works": unmapped, "listed_topics": len(st),
-                              "listed_total": sum(g["count"] for g in st)}
+        t = sid(g["key"])
+        if t not in v1:
+            sept_unmapped += g["count"]
+        elif v1[t][1] not in four:
+            sept_outside_v1[t] += g["count"]
+        elif t in moved_out:
+            sept_out[t] += g["count"]
+    R["hierarchy"] = {
+        "topics_in_snapshot_records": len(emb),
+        "snapshot_vs_live_2026-11-24_subfield_differences": len(differs_live),
+        "snapshot_vs_v1_subfield_differences": len(differs_v1),
+        "moved_into_four_subfields": [(t, live[t][0], v1[t][1], live[t][1]) for t in moved_in],
+        "moved_out_of_four_subfields": [(t, v1[t][0], v1[t][1], live[t][1]) for t in moved_out],
+        "nov_main_corpus_works_in_moved_in_topics": {t: nov_in[t] for t in moved_in if nov_in[t]},
+        "nov_main_corpus_works_in_moved_in_topics_total": sum(nov_in.values()),
+        "nov_main_corpus_works_in_moved_out_topics_total": sum(nov_out.values()),
+        "sept_works_in_moved_out_topics": {t: sept_out[t] for t in moved_out if sept_out[t]},
+        "sept_works_in_moved_out_topics_total": sum(sept_out.values()),
+        "sept_works_outside_four_under_v1_hierarchy": sum(sept_outside_v1.values()),
+        "sept_unmapped": sept_unmapped, "sept_listed_total": sum(g["count"] for g in st),
+    }
+    with open(OUT / "topic_hierarchy_moves.csv", "w", newline="", encoding="utf-8") as f:
+        wr = csv.writer(f)
+        wr.writerow(["topic_id", "topic_name", "subfield_v1_2026-10-06", "subfield_live_2026-11-24", "direction",
+                     "works_sept_2026-09-03_primary", "works_nov_2026-11-12_primary"])
+        for t in moved_out:
+            wr.writerow([t, v1[t][0], v1[t][1], live[t][1], "out", sept_out[t], nov_out[t]])
+        for t in moved_in:
+            wr.writerow([t, live[t][0], v1[t][1], live[t][1], "in", 0, nov_in[t]])
     R["sept_top20"] = [(g["key_display_name"], g["count"]) for g in st[:20]]
     nov_top20 = {name for _, name, *_ in [(x[0], x[1]) for x in rows[:20]]}
     R["top20_overlap_sept_nov"] = len(nov_top20 & {g["key_display_name"] for g in st[:20]})
@@ -442,12 +550,22 @@ def main():
         pool = [r for r in W if r["subfield"] == sf]
         sample += rng.sample(pool, min(q, len(pool)))
     rng.shuffle(sample)
-    with open(OUT / "precision_sample.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["sample_no", "openalex_id", "doi", "year", "type", "source", "subfield", "primary_topic", "title",
-                    "abstract", "rater1_ai_relevant", "rater2_ai_relevant", "notes"])
-        for k, r in enumerate(sample, 1):
-            w.writerow([k, r["id"], r["doi"], r["year"], r["type"], r["src_name"], SUBF[r["subfield"]], r["topic"], r["title"], "", "", "", ""])
+    sample_path = OUT / "precision_sample.csv"
+    if sample_path.exists():
+        # The archived sample carries the abstracts fetched by fetch_abstracts.py and must not be overwritten;
+        # instead verify that the seeded draw reproduces exactly the archived record list.
+        with open(sample_path, encoding="utf-8") as f:
+            archived = [row["openalex_id"] for row in csv.DictReader(f)]
+        drawn = [r["id"] for r in sample]
+        assert archived == drawn, "seeded sample does not match results/precision_sample.csv"
+        R["precision_sample_reproduced"] = True
+    else:
+        with open(sample_path, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["sample_no", "openalex_id", "doi", "year", "type", "source", "subfield", "primary_topic", "title",
+                        "abstract", "rater1_ai_relevant", "rater2_ai_relevant", "notes"])
+            for k, r in enumerate(sample, 1):
+                w.writerow([k, r["id"], r["doi"], r["year"], r["type"], r["src_name"], SUBF[r["subfield"]], r["topic"], r["title"], "", "", "", ""])
     R["precision_sample_n"] = len(sample)
 
     # ---- yearly table csv

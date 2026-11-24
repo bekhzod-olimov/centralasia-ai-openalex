@@ -6,8 +6,8 @@ authors:
     given-names: Bekhzod
     orcid: https://orcid.org/0000-0003-1090-0910
     affiliation: Kokand University
-version: 1.0.0
-date-released: 2026-11-12
+version: 1.1.0
+date-released: 2026-11-24
 license: MIT
 repository-code: https://github.com/bekhzod-olimov/centralasia-ai-openalex
 preferred-citation:

@@ -565,13 +565,19 @@
      "deviance_df": 9.094802942993697
     },
     "nb2": {
-     "r": 0.4734760370533999,
+     "r": 0.38331835239035916,
      "ci": [
-      0.4554206672826431,
-      0.49153140682415675
+      0.31829602147968417,
+      0.44834068330103416
      ],
-     "doubling": 1.4639540891522886,
-     "alpha": 0.00011412826622382054
+     "doubling": 1.8082807051567058,
+     "alpha": 0.32272779511202426,
+     "converged": true,
+     "method": "newton",
+     "llf": -75.27156145340395,
+     "iterations": 8,
+     "poisson_dispersion": 16.79739580697128,
+     "profile_llf": -75.27156149968789
     }
    },
    "KZ": {
@@ -599,13 +605,19 @@
      "deviance_df": 5.153427061903634
     },
     "nb2": {
-     "r": 0.27871719864660954,
+     "r": 0.27871724349320753,
      "ci": [
-      0.2431124201728222,
-      0.3143219771203969
+      0.2431124659781755,
+      0.3143220210082395
      ],
-     "doubling": 2.4869193000134837,
-     "alpha": 0.0670704594331041
+     "doubling": 2.4869188998593033,
+     "alpha": 0.0670703867560866,
+     "converged": true,
+     "method": "newton",
+     "llf": -78.11272681801887,
+     "iterations": 7,
+     "poisson_dispersion": 4.822338706304622,
+     "profile_llf": -78.11294701705026
     }
    },
    "KG": {
@@ -633,13 +645,19 @@
      "deviance_df": 2.3355532072554794
     },
     "nb2": {
-     "r": 0.3342168306763712,
+     "r": 0.3342168160196594,
      "ci": [
-      0.2717558512728041,
-      0.3966778100799383
+      0.27175583124962,
+      0.39667780078969883
      ],
-     "doubling": 2.0739445681331756,
-     "alpha": 0.0717623050049088
+     "doubling": 2.073944659083739,
+     "alpha": 0.07176235614228627,
+     "converged": true,
+     "method": "newton",
+     "llf": -40.96657738166744,
+     "iterations": 5,
+     "poisson_dispersion": 2.306981876498643,
+     "profile_llf": -40.966585590083255
     }
    },
    "TJ": {
@@ -667,13 +685,19 @@
      "deviance_df": 1.5841210772791752
     },
     "nb2": {
-     "r": 0.282693649367963,
+     "r": 0.28269368441984677,
      "ci": [
-      0.17085701402273173,
-      0.39453028471319423
+      0.17085698709773456,
+      0.394530381741959
      ],
-     "doubling": 2.4519375730924997,
-     "alpha": 0.010552629447828057
+     "doubling": 2.451937269070742,
+     "alpha": 0.010552671822453551,
+     "converged": true,
+     "method": "bfgs",
+     "llf": -24.79367165991213,
+     "iterations": -1,
+     "poisson_dispersion": 1.5864173394674246,
+     "profile_llf": -24.793672236546854
     }
    },
    "REGION": {
@@ -701,13 +725,19 @@
      "deviance_df": 8.826895158563662
     },
     "nb2": {
-     "r": 0.3257847676636146,
+     "r": 0.3257847684781736,
      "ci": [
-      0.3017461193223288,
-      0.34982341600490036
+      0.3017461200529265,
+      0.3498234169034207
      ],
-     "doubling": 2.1276230485878536,
-     "alpha": 0.03292476451059236
+     "doubling": 2.1276230432681618,
+     "alpha": 0.03292476447452035,
+     "converged": true,
+     "method": "newton",
+     "llf": -80.96029372650835,
+     "iterations": 6,
+     "poisson_dispersion": 9.279717173133914,
+     "profile_llf": -80.96030576102325
     }
    }
   },
@@ -737,13 +767,19 @@
      "deviance_df": 8.318115935517444
     },
     "nb2": {
-     "r": 0.47569855497335745,
+     "r": 0.39144360648213833,
      "ci": [
-      0.4561343415269686,
-      0.4952627684197463
+      0.32868437202816014,
+      0.4542028409361165
      ],
-     "doubling": 1.4571143286293282,
-     "alpha": 5.1631297746598726e-05
+     "doubling": 1.7707459493059157,
+     "alpha": 0.24536580441068528,
+     "converged": true,
+     "method": "newton",
+     "llf": -72.7909020756951,
+     "iterations": 7,
+     "poisson_dispersion": 14.760089542187634,
+     "profile_llf": -72.79122985229947
     }
    },
    "KZ": {
@@ -771,13 +807,19 @@
      "deviance_df": 4.462354043188763
     },
     "nb2": {
-     "r": 0.27553995268081055,
+     "r": 0.27553994228003154,
      "ci": [
-      0.24314454224754292,
-      0.3079353631140782
+      0.24314453096466365,
+      0.3079353535953994
      ],
-     "doubling": 2.515595919270905,
-     "alpha": 0.04943112267291304
+     "doubling": 2.515596014226856,
+     "alpha": 0.04943115197909172,
+     "converged": true,
+     "method": "newton",
+     "llf": -76.20523403401509,
+     "iterations": 7,
+     "poisson_dispersion": 4.17600769594879,
+     "profile_llf": -76.20523433212165
     }
    },
    "KG": {
@@ -805,13 +847,19 @@
      "deviance_df": 2.013316727658942
     },
     "nb2": {
-     "r": 0.333433037376075,
+     "r": 0.3334330416655032,
      "ci": [
-      0.26645765957511713,
-      0.40040841517703285
+      0.2664576598056501,
+      0.40040842352535627
      ],
-     "doubling": 2.0788197414827647,
-     "alpha": 0.06951569558578849
+     "doubling": 2.0788197147399203,
+     "alpha": 0.06951571501473432,
+     "converged": true,
+     "method": "newton",
+     "llf": -39.90094937685109,
+     "iterations": 5,
+     "poisson_dispersion": 2.0424068526260326,
+     "profile_llf": -39.900975696126466
     }
    },
    "TJ": {
@@ -839,13 +887,19 @@
      "deviance_df": 1.5160330176759014
     },
     "nb2": {
-     "r": 0.2541844127847142,
+     "r": 0.25418357962399185,
      "ci": [
-      0.1521609928507135,
-      0.3562078327187149
+      0.15216085345303137,
+      0.3562063057949523
      ],
-     "doubling": 2.726946050570843,
-     "alpha": 6.509676531991594e-08
+     "doubling": 2.7269549889308453,
+     "alpha": 0.0,
+     "converged": true,
+     "method": "poisson-limit",
+     "note": "profile likelihood maximal at alpha -> 0; NB2 reduces to Poisson",
+     "llf": -24.083937961132413,
+     "poisson_dispersion": 1.4023351905592865,
+     "profile_llf": -24.084091646342166
     }
    },
    "REGION": {
@@ -873,13 +927,19 @@
      "deviance_df": 8.494891058959878
     },
     "nb2": {
-     "r": 0.32404953379575907,
+     "r": 0.3240495383107089,
      "ci": [
-      0.29989282923520166,
-      0.3482062383563165
+      0.2998928348701174,
+      0.3482062417513003
      ],
-     "doubling": 2.139016132628723,
-     "alpha": 0.032297229320545726
+     "doubling": 2.1390161028260253,
+     "alpha": 0.032297224134760764,
+     "converged": true,
+     "method": "newton",
+     "llf": -79.47560270711736,
+     "iterations": 6,
+     "poisson_dispersion": 8.860074827683317,
+     "profile_llf": -79.47566825877001
     }
    }
   },
@@ -909,13 +969,19 @@
      "deviance_df": 8.648261159176242
     },
     "nb2": {
-     "r": 0.4051983629068859,
+     "r": 0.40519834383383513,
      "ci": [
-      0.3312648066409722,
-      0.47913191917279957
+      0.3312647818460758,
+      0.4791319058215945
      ],
-     "doubling": 1.7106366757933564,
-     "alpha": 0.3481826394372945
+     "doubling": 1.7106367563145644,
+     "alpha": 0.348182713900511,
+     "converged": true,
+     "method": "newton",
+     "llf": -72.09885460918913,
+     "iterations": 7,
+     "poisson_dispersion": 17.279321715025183,
+     "profile_llf": -72.09900564722471
     }
    },
    "KZ": {
@@ -943,13 +1009,19 @@
      "deviance_df": 5.2293992273408625
     },
     "nb2": {
-     "r": 0.311185067075873,
+     "r": 0.31118508369694553,
      "ci": [
-      0.2650916086790317,
-      0.3572785254727143
+      0.26509161153328475,
+      0.3572785558606063
      ],
-     "doubling": 2.2274435822813516,
-     "alpha": 0.1021134131476944
+     "doubling": 2.2274434633087425,
+     "alpha": 0.10211343481206099,
+     "converged": true,
+     "method": "newton",
+     "llf": -77.6726655663815,
+     "iterations": 7,
+     "poisson_dispersion": 4.425482892547182,
+     "profile_llf": -77.67267841777635
     }
    },
    "KG": {
@@ -977,13 +1049,19 @@
      "deviance_df": 1.0886695782138776
     },
     "nb2": {
-     "r": 0.37584420872052576,
+     "r": 0.37584424081730555,
      "ci": [
-      0.3151753283810883,
-      0.4365130890599632
+      0.31517536470208524,
+      0.43651311693252587
      ],
-     "doubling": 1.844240683978087,
-     "alpha": 0.017502255910265715
+     "doubling": 1.8442405264814947,
+     "alpha": 0.01750223164000542,
+     "converged": true,
+     "method": "newton",
+     "llf": -31.89176269165776,
+     "iterations": 7,
+     "poisson_dispersion": 0.9904517419758382,
+     "profile_llf": -31.89176269190487
     }
    },
    "TJ": {
@@ -1011,13 +1089,19 @@
      "deviance_df": 1.2043397693006408
     },
     "nb2": {
-     "r": 0.2868172445892495,
+     "r": 0.28681622251978967,
      "ci": [
-      NaN,
-      NaN
+      0.16156306046469032,
+      0.412069384574889
      ],
-     "doubling": 2.416685864033734,
-     "alpha": 2.654859858517072e-07
+     "doubling": 2.4166944758925544,
+     "alpha": 0.0,
+     "converged": true,
+     "method": "poisson-limit",
+     "note": "profile likelihood maximal at alpha -> 0; NB2 reduces to Poisson",
+     "llf": -20.002464719795977,
+     "poisson_dispersion": 1.481140652355169,
+     "profile_llf": -20.002843180739507
     }
    },
    "REGION": {
@@ -1045,13 +1129,19 @@
      "deviance_df": 9.533385569851617
     },
     "nb2": {
-     "r": 0.35056433513509144,
+     "r": 0.35056433693872313,
      "ci": [
-      0.3207459840469928,
-      0.3803826862231901
+      0.32074598469249516,
+      0.3803826891849511
      ],
-     "doubling": 1.9772324537601296,
-     "alpha": 0.0489974019154801
+     "doubling": 1.9772324435873918,
+     "alpha": 0.04899740524052654,
+     "converged": true,
+     "method": "newton",
+     "llf": -80.99690660208663,
+     "iterations": 7,
+     "poisson_dispersion": 9.673755506451247,
+     "profile_llf": -80.99700050960273
     }
    }
   },
@@ -1081,13 +1171,19 @@
      "deviance_df": 9.047426326153404
     },
     "nb2": {
-     "r": 0.472720677592565,
+     "r": 0.3830182073925312,
      "ci": [
-      0.454696809836515,
-      0.49074454534861495
+      0.31802728124769175,
+      0.4480091335373706
      ],
-     "doubling": 1.466293338573534,
-     "alpha": 9.828818385166149e-05
+     "doubling": 1.8096977302428408,
+     "alpha": 0.3221177082004548,
+     "converged": true,
+     "method": "newton",
+     "llf": -75.23422393657839,
+     "iterations": 8,
+     "poisson_dispersion": 16.683205068736175,
+     "profile_llf": -75.23423029824859
     }
    },
    "KZ": {
@@ -1115,13 +1211,19 @@
      "deviance_df": 5.30142914801116
     },
     "nb2": {
-     "r": 0.28028005305241627,
+     "r": 0.28028005006473167,
      "ci": [
-      0.24312107799935612,
-      0.3174390281054764
+      0.24312107456876866,
+      0.3174390255606947
      ],
-     "doubling": 2.4730521241563954,
-     "alpha": 0.07452735741170759
+     "doubling": 2.4730521505182423,
+     "alpha": 0.0745273659737494,
+     "converged": true,
+     "method": "newton",
+     "llf": -78.55125358713481,
+     "iterations": 7,
+     "poisson_dispersion": 4.913021339648163,
+     "profile_llf": -78.55130588889583
     }
    },
    "KG": {
@@ -1149,13 +1251,19 @@
      "deviance_df": 2.3585479964165144
     },
     "nb2": {
-     "r": 0.34451926619501694,
+     "r": 0.3445192661977616,
      "ci": [
-      0.2769071813042223,
-      0.41213135108581156
+      0.27690718108863405,
+      0.4121313513068891
      ],
-     "doubling": 2.0119257428337423,
-     "alpha": 0.08160421045392889
+     "doubling": 2.011925742817714,
+     "alpha": 0.08160421199967043,
+     "converged": true,
+     "method": "newton",
+     "llf": -39.97936825331726,
+     "iterations": 5,
+     "poisson_dispersion": 2.3662891543640225,
+     "profile_llf": -39.979479351022086
     }
    },
    "TJ": {
@@ -1183,13 +1291,19 @@
      "deviance_df": 1.5841210772791752
     },
     "nb2": {
-     "r": 0.282693649367963,
+     "r": 0.28269368441984677,
      "ci": [
-      0.17085701402273173,
-      0.39453028471319423
+      0.17085698709773456,
+      0.394530381741959
      ],
-     "doubling": 2.4519375730924997,
-     "alpha": 0.010552629447828057
+     "doubling": 2.451937269070742,
+     "alpha": 0.010552671822453551,
+     "converged": true,
+     "method": "bfgs",
+     "llf": -24.79367165991213,
+     "iterations": -1,
+     "poisson_dispersion": 1.5864173394674246,
+     "profile_llf": -24.793672236546854
     }
    }
   },
@@ -1219,13 +1333,19 @@
      "deviance_df": 8.03137396323517
     },
     "nb2": {
-     "r": 0.5086806117921815,
+     "r": 0.5086806126474646,
      "ci": [
-      0.4581501121307345,
-      0.5592111114536286
+      0.4581501142420697,
+      0.5592111110528594
      ],
-     "doubling": 1.362637310114596,
-     "alpha": 0.038619792043311015
+     "doubling": 1.3626373078234912,
+     "alpha": 0.03861978917793929,
+     "converged": true,
+     "method": "newton",
+     "llf": -51.26737183094555,
+     "iterations": 6,
+     "poisson_dispersion": 7.729771583047628,
+     "profile_llf": -51.26753517190103
     }
    },
    "KZ": {
@@ -1253,13 +1373,19 @@
      "deviance_df": 3.4287153498108633
     },
     "nb2": {
-     "r": 0.23364998158952174,
+     "r": 0.23364997068699309,
      "ci": [
-      0.21122541276609041,
-      0.2560745504129531
+      0.21122539680360145,
+      0.2560745445703847
      ],
-     "doubling": 2.966604901247851,
-     "alpha": 0.007487210943655305
+     "doubling": 2.966605039674981,
+     "alpha": 0.007487216636727448,
+     "converged": true,
+     "method": "newton",
+     "llf": -50.873968226131836,
+     "iterations": 8,
+     "poisson_dispersion": 3.5698219231325177,
+     "profile_llf": -50.87410485951452
     }
    },
    "KG": {
@@ -1287,13 +1413,19 @@
      "deviance_df": 3.3293840292005554
     },
     "nb2": {
-     "r": 0.3352767986917456,
+     "r": 0.33527679894465356,
      "ci": [
-      0.2524161368335078,
-      0.4181374605499834
+      0.25241613704369054,
+      0.4181374608456166
      ],
-     "doubling": 2.0673878516635047,
-     "alpha": 0.07651917282349258
+     "doubling": 2.0673878501040206,
+     "alpha": 0.07651917272319449,
+     "converged": true,
+     "method": "newton",
+     "llf": -34.89919743730594,
+     "iterations": 6,
+     "poisson_dispersion": 3.345176806063994,
+     "profile_llf": -34.89920958526296
     }
    },
    "REGION": {
@@ -1321,13 +1453,19 @@
      "deviance_df": 10.414407065289172
     },
     "nb2": {
-     "r": 0.3219399466300553,
+     "r": 0.32193994715641977,
      "ci": [
-      0.2940820779974187,
-      0.34979781526269194
+      0.2940820791778373,
+      0.34979781513500224
      ],
-     "doubling": 2.1530325385698355,
-     "alpha": 0.017401727896461515
+     "doubling": 2.153032535049676,
+     "alpha": 0.017401726857581797,
+     "converged": true,
+     "method": "newton",
+     "llf": -59.451075174610814,
+     "iterations": 8,
+     "poisson_dispersion": 11.070617956722568,
+     "profile_llf": -59.4511240616045
     }
    }
   }
@@ -3404,36 +3542,36 @@
    "TJ": {
     "n": 0,
     "n_fwci": 0,
-    "mean": NaN,
+    "mean": null,
     "mean_ci": [
-     NaN,
-     NaN
+     null,
+     null
     ],
-    "median": NaN,
-    "q1": NaN,
-    "q3": NaN,
-    "share_ge1": 0.0,
-    "share_zero_cites": 0.0,
-    "share_top10": 0.0,
-    "mean_cites": NaN,
-    "median_cites": NaN
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "share_ge1": null,
+    "share_zero_cites": null,
+    "share_top10": null,
+    "mean_cites": null,
+    "median_cites": null
    },
    "TM": {
     "n": 0,
     "n_fwci": 0,
-    "mean": NaN,
+    "mean": null,
     "mean_ci": [
-     NaN,
-     NaN
+     null,
+     null
     ],
-    "median": NaN,
-    "q1": NaN,
-    "q3": NaN,
-    "share_ge1": 0.0,
-    "share_zero_cites": 0.0,
-    "share_top10": 0.0,
-    "mean_cites": NaN,
-    "median_cites": NaN
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "share_ge1": null,
+    "share_zero_cites": null,
+    "share_top10": null,
+    "mean_cites": null,
+    "median_cites": null
    }
   }
  },
@@ -3588,7 +3726,7 @@
     0.2990565835866872,
     0.48541750863313493
    ],
-   "growth_nb_r": 0.35056433513509144,
+   "growth_nb_r": 0.35056433693872313,
    "formal_share": 0.868662186927306,
    "top10_topics": [
     [
@@ -3661,7 +3799,7 @@
     0.2917191494059787,
     0.38807651696849127
    ],
-   "growth_nb_r": 0.3257847676636146,
+   "growth_nb_r": 0.3257847684781736,
    "formal_share": 0.8696302628766831,
    "top10_topics": [
     [
@@ -3734,7 +3872,7 @@
     0.28853231883569674,
     0.345035705432703
    ],
-   "growth_nb_r": 0.3137770213764382,
+   "growth_nb_r": 0.3137770184551651,
    "formal_share": 0.8631962467558395,
    "top10_topics": [
     [
@@ -4106,34 +4244,267 @@
    }
   }
  },
- "sept_subfield_est": {
-  "mapped": {
-   "Artificial Intelligence": 3324,
-   "1906": 285,
-   "2604": 238,
-   "1406": 209,
-   "3304": 296,
-   "3002": 138,
-   "Computational Theory and Mathematics": 596,
-   "Computer Vision and Pattern Recognition": 1245,
-   "2105": 106,
-   "2207": 85,
-   "Software": 161,
-   "3107": 71,
-   "1705": 46,
-   "2607": 44,
-   "3310": 47,
-   "2206": 23,
-   "1210": 22,
-   "2614": 19,
-   "1708": 12,
-   "1704": 9,
-   "2613": 7,
-   "2611": 3
+ "hierarchy": {
+  "topics_in_snapshot_records": 1675,
+  "snapshot_vs_live_2026-11-24_subfield_differences": 0,
+  "snapshot_vs_v1_subfield_differences": 371,
+  "moved_into_four_subfields": [
+   [
+    "T10191",
+    "Robotics and Sensor-Based Localization",
+    "2202",
+    "1707"
+   ],
+   [
+    "T10667",
+    "Emotion and Mood Recognition",
+    "3205",
+    "1702"
+   ],
+   [
+    "T10689",
+    "Remote-Sensing Image Classification",
+    "2214",
+    "1707"
+   ],
+   [
+    "T10883",
+    "Ethics and Social Impacts of AI",
+    "3311",
+    "1702"
+   ],
+   [
+    "T11241",
+    "Advanced Malware Detection Techniques",
+    "1711",
+    "1712"
+   ],
+   [
+    "T11596",
+    "Constraint Satisfaction and Optimization",
+    "1705",
+    "1702"
+   ],
+   [
+    "T12389",
+    "Infrared Target Detection Methodologies",
+    "2202",
+    "1707"
+   ],
+   [
+    "T12391",
+    "Artificial Immune Systems Applications",
+    "2204",
+    "1702"
+   ],
+   [
+    "T12702",
+    "Brain Tumor Detection and Classification",
+    "2808",
+    "1707"
+   ],
+   [
+    "T12707",
+    "Vehicle License Plate Recognition",
+    "2214",
+    "1707"
+   ],
+   [
+    "T12983",
+    "Satellite Image Processing and Photogrammetry",
+    "2212",
+    "1707"
+   ],
+   [
+    "T13282",
+    "Automated Road and Building Extraction",
+    "2212",
+    "1707"
+   ],
+   [
+    "T13820",
+    "SAS software applications and methods",
+    "2204",
+    "1712"
+   ]
+  ],
+  "moved_out_of_four_subfields": [
+   [
+    "T10020",
+    "Quantum Information and Cryptography",
+    "1702",
+    "3107"
+   ],
+   [
+    "T10211",
+    "Computational Drug Discovery Methods",
+    "1703",
+    "3002"
+   ],
+   [
+    "T10237",
+    "Cryptography and Data Security",
+    "1702",
+    "1705"
+   ],
+   [
+    "T10586",
+    "Robotic Path Planning Algorithms",
+    "1707",
+    "2207"
+   ],
+   [
+    "T10799",
+    "Data Visualization and Analytics",
+    "1707",
+    "1704"
+   ],
+   [
+    "T11130",
+    "Coding theory and cryptography",
+    "1702",
+    "2607"
+   ],
+   [
+    "T11269",
+    "Algorithms and Data Compression",
+    "1702",
+    "2614"
+   ],
+   [
+    "T11276",
+    "Solar Radiation and Photovoltaics",
+    "1702",
+    "2105"
+   ],
+   [
+    "T11349",
+    "Music Technology and Sound Studies",
+    "1707",
+    "1210"
+   ],
+   [
+    "T11424",
+    "Security and Verification in Computing",
+    "1702",
+    "1708"
+   ],
+   [
+    "T12100",
+    "Advanced Mathematical Modeling in Engineering",
+    "1703",
+    "2604"
+   ],
+   [
+    "T12128",
+    "AI in Service Interactions",
+    "1702",
+    "1406"
+   ],
+   [
+    "T12157",
+    "Geochemistry and Geologic Mapping",
+    "1702",
+    "1906"
+   ],
+   [
+    "T12260",
+    "Educational Technology and Pedagogy",
+    "1702",
+    "3304"
+   ],
+   [
+    "T12469",
+    "Chaos, Complexity, and Education",
+    "1703",
+    "3304"
+   ],
+   [
+    "T12794",
+    "Adaptive Dynamic Programming Control",
+    "1703",
+    "2207"
+   ],
+   [
+    "T12809",
+    "Contact Mechanics and Variational Inequalities",
+    "1703",
+    "2206"
+   ],
+   [
+    "T13286",
+    "Modeling and Simulation Systems",
+    "1703",
+    "2611"
+   ],
+   [
+    "T13398",
+    "Data Analysis with R",
+    "1702",
+    "2613"
+   ],
+   [
+    "T13623",
+    "Linguistic Studies and Language Acquisition",
+    "1702",
+    "3310"
+   ],
+   [
+    "T13629",
+    "Text Readability and Simplification",
+    "1702",
+    "3310"
+   ],
+   [
+    "T14335",
+    "Educational Robotics and Engineering",
+    "1702",
+    "3304"
+   ]
+  ],
+  "nov_main_corpus_works_in_moved_in_topics": {
+   "T10191": 42,
+   "T10667": 134,
+   "T10689": 156,
+   "T10883": 309,
+   "T11241": 70,
+   "T11596": 3,
+   "T12391": 46,
+   "T12702": 74,
+   "T12707": 16,
+   "T12983": 39,
+   "T13282": 5
   },
-  "unmapped_works": 151,
-  "listed_topics": 140,
-  "listed_total": 7137
+  "nov_main_corpus_works_in_moved_in_topics_total": 894,
+  "nov_main_corpus_works_in_moved_out_topics_total": 0,
+  "sept_works_in_moved_out_topics": {
+   "T10020": 71,
+   "T10211": 138,
+   "T10237": 46,
+   "T10586": 79,
+   "T10799": 9,
+   "T11130": 44,
+   "T11269": 19,
+   "T11276": 106,
+   "T11349": 22,
+   "T11424": 12,
+   "T12100": 238,
+   "T12128": 209,
+   "T12157": 285,
+   "T12260": 68,
+   "T12469": 37,
+   "T12794": 6,
+   "T12809": 23,
+   "T13286": 3,
+   "T13398": 7,
+   "T13623": 19,
+   "T13629": 28,
+   "T14335": 191
+  },
+  "sept_works_in_moved_out_topics_total": 1660,
+  "sept_works_outside_four_under_v1_hierarchy": 0,
+  "sept_unmapped": 0,
+  "sept_listed_total": 7137
  },
  "sept_top20": [
   [
@@ -4218,5 +4589,6 @@
   ]
  ],
  "top20_overlap_sept_nov": 10,
+ "precision_sample_reproduced": true,
  "precision_sample_n": 300
 }

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Add abstracts to out/precision_sample.csv via free single-entity OpenAlex calls."""
+"""Add abstracts to ../results/precision_sample.csv via free single-entity OpenAlex calls."""
 import csv, json, time, urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).parent
-P = HERE / "out" / "precision_sample.csv"
+P = HERE.parent / "results" / "precision_sample.csv"
 HDR = {"User-Agent": "KU-bibliometrics (mailto:YOUR_EMAIL_HERE)"}
 
 

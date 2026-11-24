@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Figures for the revised manuscript (snapshot 2026-11-12). Reads out/results.json and the raw corpus."""
-import json, math
+"""Figures for the revised manuscript (snapshot 2026-11-12). Reads ../results/results.json and the raw corpus; writes ../figures/."""
+import json, math, os
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -13,9 +13,9 @@ from matplotlib.patches import Patch
 import analysis_r1 as A
 
 HERE = Path(__file__).parent
-FIG = HERE / "figures"
+FIG = Path(os.environ.get("CA_FIG", A.ROOT / "figures"))  # override with CA_FIG=<dir>
 FIG.mkdir(exist_ok=True)
-R = json.load(open(HERE / "out" / "results.json"))
+R = A.jload(A.OUT / "results.json")
 W = [A.parse(w) for w in A.load_jsonl(A.SNAP / "works_primary.jsonl")]
 
 # fixed categorical slots (colourblind-safe reference palette), never re-assigned
@@ -45,6 +45,7 @@ def fig1():
         a.annotate(NAME[cc], (YEARS[-1], y[-1]), xytext=(4, 0), textcoords="offset points", color=COL[cc], va="center", fontsize=8)
     a.set_xlim(2010, 2027.5); a.set_ylabel("Works per year (full counting)"); a.set_title("(a) Annual output, 2010–2025", loc="left", fontsize=9)
     a.set_xticks(range(2010, 2026, 3))
+    labels = []
     for cc in ["KZ", "UZ", "KG", "REGION"]:
         y = [cy[cc].get(str(t), 0) for t in YEARS] if cc != "REGION" else [R["by_year"].get(str(t), 0) for t in YEARS]
         yy = [v if v > 0 else np.nan for v in y]
@@ -56,13 +57,20 @@ def fig1():
         m = np.array(y) > 0
         c = np.mean(np.log(np.array(y)[m]) - g["r"] * t[m])
         b.plot(YEARS, np.exp(c + g["r"] * t), "-", lw=1.5, color=COL[cc])
-        b.annotate(f"{NAME[cc].split(' (')[0]}: {100*g['r']:.0f}%/yr", (2025.2, np.exp(c + g["r"] * 15)), fontsize=8, color=COL[cc], va="center")
+        labels.append((np.exp(c + g["r"] * 15), f"{NAME[cc].split(' (')[0]}: {100*g['r']:.0f}%/yr", COL[cc]))
+    # place the end labels with a minimum vertical separation (log scale) so that they never overlap
+    labels.sort(key=lambda z: z[0])
+    ys = [math.log10(z[0]) for z in labels]
+    for i in range(1, len(ys)):
+        ys[i] = max(ys[i], ys[i - 1] + 0.13)
+    for (y0, txt, col), yl in zip(labels, ys):
+        b.annotate(txt, (2025.2, 10 ** yl), fontsize=8, color=col, va="center")
     b.set_yscale("log"); b.set_xlim(2010, 2029); b.set_xticks(range(2010, 2026, 3))
     b.set_ylabel("Works per year (log scale)"); b.set_title("(b) Negative-binomial exponential fits", loc="left", fontsize=9)
     fig.tight_layout(); save(fig, "fig1_trajectories")
 
 
-# ---------------------------------------------------------------- Figure 2: snapshot drift
+# ---- (archive numbering follows the manuscript: Figure 8) snapshot drift
 def fig2():
     S = R["snapshots"]
     fig, (a, b) = plt.subplots(1, 2, figsize=(10, 4), gridspec_kw={"width_ratios": [1.5, 1]})
@@ -83,7 +91,7 @@ def fig2():
     b.set_yscale("log"); b.set_xticks(x); b.set_xticklabels([NAME[c] for c in ccs], rotation=20, ha="right")
     b.set_ylabel("Works 2010–2026 (log scale)"); b.set_title("(b) Country totals by snapshot", loc="left", fontsize=9)
     b.set_ylim(5, 20000)
-    fig.tight_layout(); save(fig, "fig2_snapshot_drift")
+    fig.tight_layout(); save(fig, "fig8_snapshot_drift")
 
 
 # ---------------------------------------------------------------- Figure 3: publication channel by year
@@ -102,7 +110,7 @@ def fig3():
     ax.set_xticks(yrs); ax.set_xticklabels([str(t) if t < 2026 else "2026*" for t in yrs])
     ax.set_ylabel("Works per year"); ax.legend(loc="upper left", fontsize=8)
     ax.set_title("Publication channel by year (labels: repository share)", loc="left", fontsize=9)
-    fig.tight_layout(); save(fig, "fig3_channel_by_year")
+    fig.tight_layout(); save(fig, "fig4_channel_by_year")
 
 
 # ---------------------------------------------------------------- Figure 4: top-8 domestic institutions, share of national works
@@ -118,7 +126,7 @@ def fig4():
         ax.set_xlim(0, 30); ax.set_xlabel("Share of national works (%)")
         ax.set_title(f"{NAME[cc]} (n = {R['institutions'][cc]['national_works']:,} works)", loc="left", fontsize=9)
         ax.tick_params(axis="y", labelsize=7.5)
-    fig.tight_layout(); save(fig, "fig4_institutions")
+    fig.tight_layout(); save(fig, "fig2_institutions")
 
 
 # ---------------------------------------------------------------- Figure 5: top-20 topics with activity index
@@ -140,7 +148,7 @@ def fig5():
     b.set_title("(b) Specialization vs. world", loc="left", fontsize=9); b.set_xlim(0, 5)
     for i, v in enumerate(ai):
         b.text(v + 0.05, i, f"{v:.1f}", va="center", fontsize=7)
-    fig.tight_layout(); save(fig, "fig5_topics")
+    fig.tight_layout(); save(fig, "fig3_topics")
 
 
 # ---------------------------------------------------------------- Figure 6: FWCI distributions
@@ -148,7 +156,7 @@ def fig6():
     fig, (a, b) = plt.subplots(1, 2, figsize=(10, 3.9), gridspec_kw={"width_ratios": [1.4, 1]})
     ccs = ["KZ", "UZ", "KG", "TJ"]
     data = [[r["fwci"] for r in W if cc in r["ca"] and r["fwci"] is not None] for cc in ccs]
-    bp = a.boxplot(data, labels=[f"{NAME[c]}\n(n = {len(d):,})" for c, d in zip(ccs, data)], showfliers=False, widths=0.55,
+    bp = a.boxplot(data, tick_labels=[f"{NAME[c]}\n(n = {len(d):,})" for c, d in zip(ccs, data)], showfliers=False, widths=0.55,
                    patch_artist=True, medianprops={"color": "#111111"})
     for p, cc in zip(bp["boxes"], ccs):
         p.set_facecolor(COL[cc]); p.set_alpha(0.75)
@@ -168,7 +176,7 @@ def fig6():
         b.bar(x + (j - 0.5) * w, vals, w, yerr=[lo, hi], capsize=2, color=col, label=lab, edgecolor="white")
     b.set_xticks(x); b.set_xticklabels([NAME[c] for c in ccs], rotation=15, ha="right"); b.set_ylabel("Share of works (%)")
     b.legend(fontsize=8); b.set_title("(b) Shares with 95 % Wilson intervals", loc="left", fontsize=9)
-    fig.tight_layout(); save(fig, "fig6_fwci")
+    fig.tight_layout(); save(fig, "fig7_fwci")
 
 
 # ---------------------------------------------------------------- Figure 7: open access by country
@@ -187,7 +195,7 @@ def fig7():
             left += v
     ax.set_xlim(0, 100); ax.set_xlabel("Share of works (%), OpenAlex open-access status at snapshot date")
     ax.legend(ncol=6, loc="upper center", bbox_to_anchor=(0.5, 1.18), fontsize=8)
-    fig.tight_layout(); save(fig, "fig7_open_access")
+    fig.tight_layout(); save(fig, "fig5_open_access")
 
 
 # ---------------------------------------------------------------- Figure 8: collaboration partners and groups
@@ -223,7 +231,7 @@ def fig8():
     b.set_xticks(x); b.set_xticklabels([NAME[c] for c in ccs], rotation=15, ha="right")
     b.set_ylabel("Share of national works with ≥1 co-author in group (%)")
     b.set_ylim(0, 36); b.set_title("(b) Partner groups by country (non-exclusive)", loc="left", fontsize=9); b.legend(fontsize=7, loc="upper left")
-    fig.tight_layout(); save(fig, "fig8_collaboration")
+    fig.tight_layout(); save(fig, "fig6_collaboration")
 
 
 if __name__ == "__main__":
